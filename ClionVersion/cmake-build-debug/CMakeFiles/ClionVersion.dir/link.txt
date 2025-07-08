@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/ClionVersion.dir/main.cpp.o CMakeFiles/ClionVersion.dir/src/models/Student.cpp.o CMakeFiles/ClionVersion.dir/src/models/Course.cpp.o CMakeFiles/ClionVersion.dir/src/models/EnrollmentRecord.cpp.o -o ClionVersion 
