@@ -225,6 +225,30 @@ src/models/Student.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ClionVersion.dir/build.make CMakeFiles/ClionVersion.dir/src/models/Student.cpp.s
 .PHONY : src/models/Student.cpp.s
 
+src/repositories/FileStudentRepository.o: src/repositories/FileStudentRepository.cpp.o
+.PHONY : src/repositories/FileStudentRepository.o
+
+# target to build an object file
+src/repositories/FileStudentRepository.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ClionVersion.dir/build.make CMakeFiles/ClionVersion.dir/src/repositories/FileStudentRepository.cpp.o
+.PHONY : src/repositories/FileStudentRepository.cpp.o
+
+src/repositories/FileStudentRepository.i: src/repositories/FileStudentRepository.cpp.i
+.PHONY : src/repositories/FileStudentRepository.i
+
+# target to preprocess a source file
+src/repositories/FileStudentRepository.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ClionVersion.dir/build.make CMakeFiles/ClionVersion.dir/src/repositories/FileStudentRepository.cpp.i
+.PHONY : src/repositories/FileStudentRepository.cpp.i
+
+src/repositories/FileStudentRepository.s: src/repositories/FileStudentRepository.cpp.s
+.PHONY : src/repositories/FileStudentRepository.s
+
+# target to generate assembly for a file
+src/repositories/FileStudentRepository.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ClionVersion.dir/build.make CMakeFiles/ClionVersion.dir/src/repositories/FileStudentRepository.cpp.s
+.PHONY : src/repositories/FileStudentRepository.cpp.s
+
 src/repositories/InMemoryStudentRepository.o: src/repositories/InMemoryStudentRepository.cpp.o
 .PHONY : src/repositories/InMemoryStudentRepository.o
 
@@ -270,6 +294,9 @@ help:
 	@echo "... src/models/Student.o"
 	@echo "... src/models/Student.i"
 	@echo "... src/models/Student.s"
+	@echo "... src/repositories/FileStudentRepository.o"
+	@echo "... src/repositories/FileStudentRepository.i"
+	@echo "... src/repositories/FileStudentRepository.s"
 	@echo "... src/repositories/InMemoryStudentRepository.o"
 	@echo "... src/repositories/InMemoryStudentRepository.i"
 	@echo "... src/repositories/InMemoryStudentRepository.s"

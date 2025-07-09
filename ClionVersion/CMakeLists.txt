@@ -11,4 +11,4 @@ add_executable(ClionVersion main.cpp
                             src/models/EnrollmentRecord.cpp
                             src/models/EnrollmentRecord.h
                             src/repositories/IStudentRepository.h
-        src/repositories/InMemoryStudentRepository.cpp src/repositories/InMemoryStudentRepository.h)
+        src/repositories/InMemoryStudentRepository.cpp src/repositories/InMemoryStudentRepository.h src/repositories/FileStudentRepository.cpp src/repositories/FileStudentRepository.h)

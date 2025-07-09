@@ -3,6 +3,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/ClionVersion.dir/src/models/Course.cpp.o"
   "CMakeFiles/ClionVersion.dir/src/models/EnrollmentRecord.cpp.o"
   "CMakeFiles/ClionVersion.dir/src/models/Student.cpp.o"
+  "CMakeFiles/ClionVersion.dir/src/repositories/FileStudentRepository.cpp.o"
   "CMakeFiles/ClionVersion.dir/src/repositories/InMemoryStudentRepository.cpp.o"
   "ClionVersion"
   "ClionVersion.pdb"

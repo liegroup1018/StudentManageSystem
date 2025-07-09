@@ -7,6 +7,13 @@
 
 #include "../models/Student.h"
 #include <vector>
+#include <stdexcept> // For std::runtime_error
+
+class StudentRepositotyError : public std::runtime_error {
+public:
+    StudentRepositotyError(const std::string& s) : std::runtime_error(s){}
+};
+
 
 // The "Interface" for all student repositories.
 // It defines the contract of what a repository can do, but not how it does it.
@@ -30,9 +37,8 @@ public:
     virtual void updateStudent(const Student& student) = 0;
 
     // Retrieves a collection of all students.
-    // Returns a const reference to avoid expensive copies.
     // Throws std::runtime_error if no student exists
-    virtual const std::vector<Student>& getAllStudents() const = 0;
+    virtual std::vector<Student> getAllStudents() const = 0;
 
 };
 

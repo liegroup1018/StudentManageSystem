@@ -8,6 +8,7 @@
 #include <string>
 
 class Student {
+public:
     Student() = default;
     Student(const std::string& id, const std::string& name, int level );
 

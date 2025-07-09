@@ -245,3 +245,21 @@ int main() {
     return 0;
 }
 ```
+
+# 仓库类编写注意点
+## 使用文件存储数据
+
+这里使用一个简单的实现：
+1. 初始化的时候打开文件，并把文件写入到 vector 中。
+2. 析构的时候首先清空文件中的内容，然后再把 vector 中的数据写入到文件中
+
+使用 csv 格式存储数据
+```text
+StudentId,Name,Level
+John Doe,30,Engineer,75000
+Jane Smith,28,Teacher, Part-time,48000
+Bob Johnson,35,Manager,92000
+```
+
+>[!note]
+>突然发现 studentId 应该是什么样的还没确定，线休息了，2025.7.11
