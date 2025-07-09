@@ -1,4 +1,4 @@
-# Install script for directory: /home/oulashu/文档/2025 项目计划/学生信息管理系统/coding/ClionVersion
+# Install script for directory: /home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/oulashu/文档/2025 项目计划/学生信息管理系统/coding/ClionVersion/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

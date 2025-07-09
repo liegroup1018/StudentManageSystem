@@ -57,10 +57,10 @@ RM = /home/oulashu/下载/CLion-2021.2.1/clion-2021.2.1/bin/cmake/linux/bin/cmak
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/oulashu/文档/2025 项目计划/学生信息管理系统/coding/ClionVersion"
+CMAKE_SOURCE_DIR = "/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/oulashu/文档/2025 项目计划/学生信息管理系统/coding/ClionVersion/cmake-build-debug"
+CMAKE_BINARY_DIR = "/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/oulashu/文档/2025 项目计划/学生信息管理系统/coding/ClionVersion/cmake-build-debug/CMakeFiles" "/home/oulashu/文档/2025 项目计划/学生信息管理系统/coding/ClionVersion/cmake-build-debug//CMakeFiles/progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/cmake-build-debug/CMakeFiles" "/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/cmake-build-debug//CMakeFiles/progress.marks"
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/oulashu/文档/2025 项目计划/学生信息管理系统/coding/ClionVersion/cmake-build-debug/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/cmake-build-debug/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -225,6 +225,30 @@ src/models/Student.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ClionVersion.dir/build.make CMakeFiles/ClionVersion.dir/src/models/Student.cpp.s
 .PHONY : src/models/Student.cpp.s
 
+src/repositories/InMemoryStudentRepository.o: src/repositories/InMemoryStudentRepository.cpp.o
+.PHONY : src/repositories/InMemoryStudentRepository.o
+
+# target to build an object file
+src/repositories/InMemoryStudentRepository.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ClionVersion.dir/build.make CMakeFiles/ClionVersion.dir/src/repositories/InMemoryStudentRepository.cpp.o
+.PHONY : src/repositories/InMemoryStudentRepository.cpp.o
+
+src/repositories/InMemoryStudentRepository.i: src/repositories/InMemoryStudentRepository.cpp.i
+.PHONY : src/repositories/InMemoryStudentRepository.i
+
+# target to preprocess a source file
+src/repositories/InMemoryStudentRepository.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ClionVersion.dir/build.make CMakeFiles/ClionVersion.dir/src/repositories/InMemoryStudentRepository.cpp.i
+.PHONY : src/repositories/InMemoryStudentRepository.cpp.i
+
+src/repositories/InMemoryStudentRepository.s: src/repositories/InMemoryStudentRepository.cpp.s
+.PHONY : src/repositories/InMemoryStudentRepository.s
+
+# target to generate assembly for a file
+src/repositories/InMemoryStudentRepository.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ClionVersion.dir/build.make CMakeFiles/ClionVersion.dir/src/repositories/InMemoryStudentRepository.cpp.s
+.PHONY : src/repositories/InMemoryStudentRepository.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -246,6 +270,9 @@ help:
 	@echo "... src/models/Student.o"
 	@echo "... src/models/Student.i"
 	@echo "... src/models/Student.s"
+	@echo "... src/repositories/InMemoryStudentRepository.o"
+	@echo "... src/repositories/InMemoryStudentRepository.i"
+	@echo "... src/repositories/InMemoryStudentRepository.s"
 .PHONY : help
 
 

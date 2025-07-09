@@ -1,3 +1,3 @@
-/home/oulashu/文档/2025 项目计划/学生信息管理系统/coding/ClionVersion/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/oulashu/文档/2025 项目计划/学生信息管理系统/coding/ClionVersion/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/oulashu/文档/2025 项目计划/学生信息管理系统/coding/ClionVersion/cmake-build-debug/CMakeFiles/ClionVersion.dir
+/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/cmake-build-debug/CMakeFiles/ClionVersion.dir

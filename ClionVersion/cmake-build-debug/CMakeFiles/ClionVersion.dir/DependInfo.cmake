@@ -8,10 +8,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/oulashu/文档/2025 项目计划/学生信息管理系统/coding/ClionVersion/main.cpp" "/home/oulashu/文档/2025 项目计划/学生信息管理系统/coding/ClionVersion/cmake-build-debug/CMakeFiles/ClionVersion.dir/main.cpp.o"
-  "/home/oulashu/文档/2025 项目计划/学生信息管理系统/coding/ClionVersion/src/models/Course.cpp" "/home/oulashu/文档/2025 项目计划/学生信息管理系统/coding/ClionVersion/cmake-build-debug/CMakeFiles/ClionVersion.dir/src/models/Course.cpp.o"
-  "/home/oulashu/文档/2025 项目计划/学生信息管理系统/coding/ClionVersion/src/models/EnrollmentRecord.cpp" "/home/oulashu/文档/2025 项目计划/学生信息管理系统/coding/ClionVersion/cmake-build-debug/CMakeFiles/ClionVersion.dir/src/models/EnrollmentRecord.cpp.o"
-  "/home/oulashu/文档/2025 项目计划/学生信息管理系统/coding/ClionVersion/src/models/Student.cpp" "/home/oulashu/文档/2025 项目计划/学生信息管理系统/coding/ClionVersion/cmake-build-debug/CMakeFiles/ClionVersion.dir/src/models/Student.cpp.o"
+  "/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/main.cpp" "/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/cmake-build-debug/CMakeFiles/ClionVersion.dir/main.cpp.o"
+  "/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/models/Course.cpp" "/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/cmake-build-debug/CMakeFiles/ClionVersion.dir/src/models/Course.cpp.o"
+  "/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/models/EnrollmentRecord.cpp" "/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/cmake-build-debug/CMakeFiles/ClionVersion.dir/src/models/EnrollmentRecord.cpp.o"
+  "/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/models/Student.cpp" "/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/cmake-build-debug/CMakeFiles/ClionVersion.dir/src/models/Student.cpp.o"
+  "/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/repositories/InMemoryStudentRepository.cpp" "/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/cmake-build-debug/CMakeFiles/ClionVersion.dir/src/repositories/InMemoryStudentRepository.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
