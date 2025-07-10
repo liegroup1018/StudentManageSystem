@@ -24,6 +24,8 @@ public:
 
     // --- Required Methods (The Contract) ---
 
+    // add a new student to the container
+    virtual void addStudent(const Student& student) = 0;
     // Retrieves a single student by their ID.
     // Throws std::runtime_error if the student is not found.
     virtual Student getStudent(const std::string& id) const = 0;

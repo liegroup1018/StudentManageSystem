@@ -131,12 +131,14 @@ student-management-system/
 ##  model 相关的类
 
 1.  **Student Information:**
-    *   **Unique Student ID:** (e.g., `S1001`, `2023001`) - *Primary Key*
+    *   **Unique Student ID:**  - *Primary Key*
+        * 这里使用 S + 随机六位数字（例如 S202989）作为学生 ID
     *   **Full Name:** (Could be First Name, Middle Name, Last Name)
     *   **Level**: 具体年级
 
 2.  **Course Information:**
-    *   **Unique Course ID:** (e.g., `C001`, `CS101`) - *Primary Key*
+    *   **Unique Course ID:** - *Primary Key*
+        * 这里使用 C + 随机六位数字（例如 C090874）作为课程 ID
     *   **Course Name:** (e.g., "Introduction to Programming", "Data Structures")
     *   **Course Code:** (e.g., "CS101", "MA202") - *Often used for display*
     *   **Description:** (Optional, brief overview)
@@ -256,10 +258,18 @@ int main() {
 使用 csv 格式存储数据
 ```text
 StudentId,Name,Level
-John Doe,30,Engineer,75000
-Jane Smith,28,Teacher, Part-time,48000
-Bob Johnson,35,Manager,92000
+S039482,James Smith,3
+S712345,Jennifer Garcia,2
+S198237,Robert Wilson,4
+S563289,Mary Rodriguez,1
+S874563,David Martinez,3
 ```
 
->[!note]
->突然发现 studentId 应该是什么样的还没确定，线休息了，2025.7.11
+当前CSV文件格式特点
+1. 第一行是列标题
+2. 每行代表一条记录
+3. 记录中的字段用逗号分隔
+4. 字段中不包含引号逗号只会包含空格
+
+### **未考虑问题**
+- 多线程场景

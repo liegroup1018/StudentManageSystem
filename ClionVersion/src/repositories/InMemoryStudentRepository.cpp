@@ -44,3 +44,7 @@ std::vector<Student> InMemoryStudentRepository::getAllStudents() const {
     throw StudentRepositotyError("No students in memory");
 }
 
+void InMemoryStudentRepository::addStudent(const Student &student) {
+    students[student.getStudentId()] = student;
+}
+

@@ -13,6 +13,8 @@ class InMemoryStudentRepository : public IStudentRepository{
 public:
     InMemoryStudentRepository() = default;
 
+    void addStudent(const Student& student) override;
+
     Student getStudent(const std::string &id) const override;
 
     void deleteStudent(const std::string &id) override;
