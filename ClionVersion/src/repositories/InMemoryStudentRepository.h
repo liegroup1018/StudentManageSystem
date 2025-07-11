@@ -21,6 +21,8 @@ public:
 
     void updateStudent(const Student &student) override;
 
+    bool containStudent(const std::string& id) const override;
+
     std::vector<Student> getAllStudents() const override;
 
 private:

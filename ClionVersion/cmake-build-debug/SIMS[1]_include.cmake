@@ -1,0 +1,5 @@
+if(EXISTS "/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/cmake-build-debug/SIMS[1]_tests.cmake")
+  include("/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/cmake-build-debug/SIMS[1]_tests.cmake")
+else()
+  add_test(SIMS_NOT_BUILT SIMS_NOT_BUILT)
+endif()

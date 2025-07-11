@@ -63,7 +63,7 @@ CMAKE_BINARY_DIR = "/home/oulashu/文档/2025 项目计划/学生信息管理系
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/ClionVersion.dir/all
+all: CMakeFiles/SIMS.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -71,34 +71,34 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/ClionVersion.dir/clean
+clean: CMakeFiles/SIMS.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/ClionVersion.dir
+# Target rules for target CMakeFiles/SIMS.dir
 
 # All Build rule for target.
-CMakeFiles/ClionVersion.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ClionVersion.dir/build.make CMakeFiles/ClionVersion.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ClionVersion.dir/build.make CMakeFiles/ClionVersion.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/cmake-build-debug/CMakeFiles" --progress-num=1,2,3,4,5,6,7 "Built target ClionVersion"
-.PHONY : CMakeFiles/ClionVersion.dir/all
+CMakeFiles/SIMS.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SIMS.dir/build.make CMakeFiles/SIMS.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SIMS.dir/build.make CMakeFiles/SIMS.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/cmake-build-debug/CMakeFiles" --progress-num=1,2,3,4,5,6,7 "Built target SIMS"
+.PHONY : CMakeFiles/SIMS.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/ClionVersion.dir/rule: cmake_check_build_system
+CMakeFiles/SIMS.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start "/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/cmake-build-debug/CMakeFiles" 7
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/ClionVersion.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/SIMS.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/cmake-build-debug/CMakeFiles" 0
-.PHONY : CMakeFiles/ClionVersion.dir/rule
+.PHONY : CMakeFiles/SIMS.dir/rule
 
 # Convenience name for target.
-ClionVersion: CMakeFiles/ClionVersion.dir/rule
-.PHONY : ClionVersion
+SIMS: CMakeFiles/SIMS.dir/rule
+.PHONY : SIMS
 
 # clean rule for target.
-CMakeFiles/ClionVersion.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ClionVersion.dir/build.make CMakeFiles/ClionVersion.dir/clean
-.PHONY : CMakeFiles/ClionVersion.dir/clean
+CMakeFiles/SIMS.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SIMS.dir/build.make CMakeFiles/SIMS.dir/clean
+.PHONY : CMakeFiles/SIMS.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

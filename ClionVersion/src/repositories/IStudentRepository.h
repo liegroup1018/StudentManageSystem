@@ -38,6 +38,9 @@ public:
     // Throws std::runtime_error if the student to update is not found.
     virtual void updateStudent(const Student& student) = 0;
 
+    // 检查是否存在指定学生，存在则返回 true, 不存在则返回 false
+    virtual bool containStudent(const std::string& id) const = 0;
+
     // Retrieves a collection of all students.
     // Throws std::runtime_error if no student exists
     virtual std::vector<Student> getAllStudents() const = 0;

@@ -45,6 +45,19 @@ std::vector<Student> InMemoryStudentRepository::getAllStudents() const {
 }
 
 void InMemoryStudentRepository::addStudent(const Student &student) {
-    students[student.getStudentId()] = student;
+    std::string id = student.getStudentId();
+    if(!containStudent(id)){
+        students[student.getStudentId()] = student;
+        return;
+    }
+
+    throw StudentRepositotyError("Student with ID '" + id + "' already in.");
+}
+
+bool InMemoryStudentRepository::containStudent(const std::string &id) const {
+    if (students.find(id) == students.end()){
+        return false;
+    }
+    return true;
 }
 

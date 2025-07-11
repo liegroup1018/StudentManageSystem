@@ -75,6 +75,16 @@ rebuild_cache:
 rebuild_cache/fast: rebuild_cache
 .PHONY : rebuild_cache/fast
 
+# Special rule for the target test
+test:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running tests..."
+	/home/oulashu/下载/CLion-2021.2.1/clion-2021.2.1/bin/cmake/linux/bin/ctest --force-new-ctest-process $(ARGS)
+.PHONY : test
+
+# Special rule for the target test
+test/fast: test
+.PHONY : test/fast
+
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
@@ -117,48 +127,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named ClionVersion
+# Target rules for targets named SIMS
 
 # Build rule for target.
-ClionVersion: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ClionVersion
-.PHONY : ClionVersion
+SIMS: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 SIMS
+.PHONY : SIMS
 
 # fast build rule for target.
-ClionVersion/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ClionVersion.dir/build.make CMakeFiles/ClionVersion.dir/build
-.PHONY : ClionVersion/fast
-
-main.o: main.cpp.o
-.PHONY : main.o
-
-# target to build an object file
-main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ClionVersion.dir/build.make CMakeFiles/ClionVersion.dir/main.cpp.o
-.PHONY : main.cpp.o
-
-main.i: main.cpp.i
-.PHONY : main.i
-
-# target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ClionVersion.dir/build.make CMakeFiles/ClionVersion.dir/main.cpp.i
-.PHONY : main.cpp.i
-
-main.s: main.cpp.s
-.PHONY : main.s
-
-# target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ClionVersion.dir/build.make CMakeFiles/ClionVersion.dir/main.cpp.s
-.PHONY : main.cpp.s
+SIMS/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SIMS.dir/build.make CMakeFiles/SIMS.dir/build
+.PHONY : SIMS/fast
 
 src/models/Course.o: src/models/Course.cpp.o
 .PHONY : src/models/Course.o
 
 # target to build an object file
 src/models/Course.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ClionVersion.dir/build.make CMakeFiles/ClionVersion.dir/src/models/Course.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SIMS.dir/build.make CMakeFiles/SIMS.dir/src/models/Course.cpp.o
 .PHONY : src/models/Course.cpp.o
 
 src/models/Course.i: src/models/Course.cpp.i
@@ -166,7 +152,7 @@ src/models/Course.i: src/models/Course.cpp.i
 
 # target to preprocess a source file
 src/models/Course.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ClionVersion.dir/build.make CMakeFiles/ClionVersion.dir/src/models/Course.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SIMS.dir/build.make CMakeFiles/SIMS.dir/src/models/Course.cpp.i
 .PHONY : src/models/Course.cpp.i
 
 src/models/Course.s: src/models/Course.cpp.s
@@ -174,7 +160,7 @@ src/models/Course.s: src/models/Course.cpp.s
 
 # target to generate assembly for a file
 src/models/Course.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ClionVersion.dir/build.make CMakeFiles/ClionVersion.dir/src/models/Course.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SIMS.dir/build.make CMakeFiles/SIMS.dir/src/models/Course.cpp.s
 .PHONY : src/models/Course.cpp.s
 
 src/models/EnrollmentRecord.o: src/models/EnrollmentRecord.cpp.o
@@ -182,7 +168,7 @@ src/models/EnrollmentRecord.o: src/models/EnrollmentRecord.cpp.o
 
 # target to build an object file
 src/models/EnrollmentRecord.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ClionVersion.dir/build.make CMakeFiles/ClionVersion.dir/src/models/EnrollmentRecord.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SIMS.dir/build.make CMakeFiles/SIMS.dir/src/models/EnrollmentRecord.cpp.o
 .PHONY : src/models/EnrollmentRecord.cpp.o
 
 src/models/EnrollmentRecord.i: src/models/EnrollmentRecord.cpp.i
@@ -190,7 +176,7 @@ src/models/EnrollmentRecord.i: src/models/EnrollmentRecord.cpp.i
 
 # target to preprocess a source file
 src/models/EnrollmentRecord.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ClionVersion.dir/build.make CMakeFiles/ClionVersion.dir/src/models/EnrollmentRecord.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SIMS.dir/build.make CMakeFiles/SIMS.dir/src/models/EnrollmentRecord.cpp.i
 .PHONY : src/models/EnrollmentRecord.cpp.i
 
 src/models/EnrollmentRecord.s: src/models/EnrollmentRecord.cpp.s
@@ -198,7 +184,7 @@ src/models/EnrollmentRecord.s: src/models/EnrollmentRecord.cpp.s
 
 # target to generate assembly for a file
 src/models/EnrollmentRecord.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ClionVersion.dir/build.make CMakeFiles/ClionVersion.dir/src/models/EnrollmentRecord.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SIMS.dir/build.make CMakeFiles/SIMS.dir/src/models/EnrollmentRecord.cpp.s
 .PHONY : src/models/EnrollmentRecord.cpp.s
 
 src/models/Student.o: src/models/Student.cpp.o
@@ -206,7 +192,7 @@ src/models/Student.o: src/models/Student.cpp.o
 
 # target to build an object file
 src/models/Student.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ClionVersion.dir/build.make CMakeFiles/ClionVersion.dir/src/models/Student.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SIMS.dir/build.make CMakeFiles/SIMS.dir/src/models/Student.cpp.o
 .PHONY : src/models/Student.cpp.o
 
 src/models/Student.i: src/models/Student.cpp.i
@@ -214,7 +200,7 @@ src/models/Student.i: src/models/Student.cpp.i
 
 # target to preprocess a source file
 src/models/Student.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ClionVersion.dir/build.make CMakeFiles/ClionVersion.dir/src/models/Student.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SIMS.dir/build.make CMakeFiles/SIMS.dir/src/models/Student.cpp.i
 .PHONY : src/models/Student.cpp.i
 
 src/models/Student.s: src/models/Student.cpp.s
@@ -222,7 +208,7 @@ src/models/Student.s: src/models/Student.cpp.s
 
 # target to generate assembly for a file
 src/models/Student.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ClionVersion.dir/build.make CMakeFiles/ClionVersion.dir/src/models/Student.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SIMS.dir/build.make CMakeFiles/SIMS.dir/src/models/Student.cpp.s
 .PHONY : src/models/Student.cpp.s
 
 src/repositories/FileStudentRepository.o: src/repositories/FileStudentRepository.cpp.o
@@ -230,7 +216,7 @@ src/repositories/FileStudentRepository.o: src/repositories/FileStudentRepository
 
 # target to build an object file
 src/repositories/FileStudentRepository.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ClionVersion.dir/build.make CMakeFiles/ClionVersion.dir/src/repositories/FileStudentRepository.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SIMS.dir/build.make CMakeFiles/SIMS.dir/src/repositories/FileStudentRepository.cpp.o
 .PHONY : src/repositories/FileStudentRepository.cpp.o
 
 src/repositories/FileStudentRepository.i: src/repositories/FileStudentRepository.cpp.i
@@ -238,7 +224,7 @@ src/repositories/FileStudentRepository.i: src/repositories/FileStudentRepository
 
 # target to preprocess a source file
 src/repositories/FileStudentRepository.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ClionVersion.dir/build.make CMakeFiles/ClionVersion.dir/src/repositories/FileStudentRepository.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SIMS.dir/build.make CMakeFiles/SIMS.dir/src/repositories/FileStudentRepository.cpp.i
 .PHONY : src/repositories/FileStudentRepository.cpp.i
 
 src/repositories/FileStudentRepository.s: src/repositories/FileStudentRepository.cpp.s
@@ -246,7 +232,7 @@ src/repositories/FileStudentRepository.s: src/repositories/FileStudentRepository
 
 # target to generate assembly for a file
 src/repositories/FileStudentRepository.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ClionVersion.dir/build.make CMakeFiles/ClionVersion.dir/src/repositories/FileStudentRepository.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SIMS.dir/build.make CMakeFiles/SIMS.dir/src/repositories/FileStudentRepository.cpp.s
 .PHONY : src/repositories/FileStudentRepository.cpp.s
 
 src/repositories/InMemoryStudentRepository.o: src/repositories/InMemoryStudentRepository.cpp.o
@@ -254,7 +240,7 @@ src/repositories/InMemoryStudentRepository.o: src/repositories/InMemoryStudentRe
 
 # target to build an object file
 src/repositories/InMemoryStudentRepository.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ClionVersion.dir/build.make CMakeFiles/ClionVersion.dir/src/repositories/InMemoryStudentRepository.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SIMS.dir/build.make CMakeFiles/SIMS.dir/src/repositories/InMemoryStudentRepository.cpp.o
 .PHONY : src/repositories/InMemoryStudentRepository.cpp.o
 
 src/repositories/InMemoryStudentRepository.i: src/repositories/InMemoryStudentRepository.cpp.i
@@ -262,7 +248,7 @@ src/repositories/InMemoryStudentRepository.i: src/repositories/InMemoryStudentRe
 
 # target to preprocess a source file
 src/repositories/InMemoryStudentRepository.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ClionVersion.dir/build.make CMakeFiles/ClionVersion.dir/src/repositories/InMemoryStudentRepository.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SIMS.dir/build.make CMakeFiles/SIMS.dir/src/repositories/InMemoryStudentRepository.cpp.i
 .PHONY : src/repositories/InMemoryStudentRepository.cpp.i
 
 src/repositories/InMemoryStudentRepository.s: src/repositories/InMemoryStudentRepository.cpp.s
@@ -270,8 +256,32 @@ src/repositories/InMemoryStudentRepository.s: src/repositories/InMemoryStudentRe
 
 # target to generate assembly for a file
 src/repositories/InMemoryStudentRepository.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ClionVersion.dir/build.make CMakeFiles/ClionVersion.dir/src/repositories/InMemoryStudentRepository.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SIMS.dir/build.make CMakeFiles/SIMS.dir/src/repositories/InMemoryStudentRepository.cpp.s
 .PHONY : src/repositories/InMemoryStudentRepository.cpp.s
+
+src/repositories/RepositoriesUnitTest.o: src/repositories/RepositoriesUnitTest.cpp.o
+.PHONY : src/repositories/RepositoriesUnitTest.o
+
+# target to build an object file
+src/repositories/RepositoriesUnitTest.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SIMS.dir/build.make CMakeFiles/SIMS.dir/src/repositories/RepositoriesUnitTest.cpp.o
+.PHONY : src/repositories/RepositoriesUnitTest.cpp.o
+
+src/repositories/RepositoriesUnitTest.i: src/repositories/RepositoriesUnitTest.cpp.i
+.PHONY : src/repositories/RepositoriesUnitTest.i
+
+# target to preprocess a source file
+src/repositories/RepositoriesUnitTest.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SIMS.dir/build.make CMakeFiles/SIMS.dir/src/repositories/RepositoriesUnitTest.cpp.i
+.PHONY : src/repositories/RepositoriesUnitTest.cpp.i
+
+src/repositories/RepositoriesUnitTest.s: src/repositories/RepositoriesUnitTest.cpp.s
+.PHONY : src/repositories/RepositoriesUnitTest.s
+
+# target to generate assembly for a file
+src/repositories/RepositoriesUnitTest.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SIMS.dir/build.make CMakeFiles/SIMS.dir/src/repositories/RepositoriesUnitTest.cpp.s
+.PHONY : src/repositories/RepositoriesUnitTest.cpp.s
 
 # Help Target
 help:
@@ -281,10 +291,8 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... ClionVersion"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... test"
+	@echo "... SIMS"
 	@echo "... src/models/Course.o"
 	@echo "... src/models/Course.i"
 	@echo "... src/models/Course.s"
@@ -300,6 +308,9 @@ help:
 	@echo "... src/repositories/InMemoryStudentRepository.o"
 	@echo "... src/repositories/InMemoryStudentRepository.i"
 	@echo "... src/repositories/InMemoryStudentRepository.s"
+	@echo "... src/repositories/RepositoriesUnitTest.o"
+	@echo "... src/repositories/RepositoriesUnitTest.i"
+	@echo "... src/repositories/RepositoriesUnitTest.s"
 .PHONY : help
 
 

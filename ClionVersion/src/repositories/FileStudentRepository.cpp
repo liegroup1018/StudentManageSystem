@@ -5,11 +5,11 @@
 #include "FileStudentRepository.h"
 
 Student FileStudentRepository::getStudent(const std::string &id) const {
-    if(containStudent(id)){
-        auto exist = [&id](Student& s){
-            return s.getStudentId() == id;
-        };
+    auto exist = [&id](const Student& s){
+        return s.getStudentId() == id;
+    };
 
+    if(containStudent(id)){
         auto it = std::find_if(students.begin(), students.end(), exist);
         return *it;
     }
@@ -55,7 +55,7 @@ FileStudentRepository::FileStudentRepository(const std::string &filePath) : file
 void FileStudentRepository::loadData() {
     std::ifstream f(filePath);
 
-    if(!f.is_open()){
+    if(!f){
         throw StudentRepositotyError("can not open: " + filePath + "!");
     }
 
@@ -105,7 +105,9 @@ void FileStudentRepository::addStudent(const Student &student) {
 }
 
 bool FileStudentRepository::containStudent(const std::string &id) const {
-    auto exist = [&id](Student& s){
+    // 注意常量 vector 的迭代器永远是常量迭代器并且解引用后也是常量引用
+    // 所以 lambda 表达式的参数必须是常量引用
+    auto exist = [&id](const Student& s){
         return s.getStudentId() == id;
     };
 

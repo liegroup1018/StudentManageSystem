@@ -5,7 +5,7 @@
 		<Option title="ClionVersion"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\..\..\usr\local\;CMake Files\..\..\..\..\..\..\..\usr\local\lib\;CMake Files\..\..\..\..\..\..\..\usr\local\lib\cmake\;CMake Files\..\..\..\..\..\..\..\usr\local\lib\cmake\GTest\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/cmake-build-debug"/>
@@ -27,6 +27,16 @@
 					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/oulashu/文档/2025\ 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="test">
+				<Option working_dir="/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/oulashu/文档/2025\ 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/cmake-build-debug/Makefile&quot;  VERBOSE=1 test"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/oulashu/文档/2025\ 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/oulashu/文档/2025\ 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/oulashu/文档/2025\ 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="edit_cache">
 				<Option working_dir="/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/cmake-build-debug"/>
 				<Option type="4"/>
@@ -37,8 +47,8 @@
 					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/oulashu/文档/2025\ 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="ClionVersion">
-				<Option output="/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/cmake-build-debug/ClionVersion" prefix_auto="0" extension_auto="0"/>
+			<Target title="SIMS">
+				<Option output="/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/cmake-build-debug/SIMS" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -53,14 +63,14 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j4 -f &quot;/home/oulashu/文档/2025\ 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/cmake-build-debug/Makefile&quot;  VERBOSE=1 ClionVersion"/>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/oulashu/文档/2025\ 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/cmake-build-debug/Makefile&quot;  VERBOSE=1 SIMS"/>
 					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/oulashu/文档/2025\ 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/oulashu/文档/2025\ 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/oulashu/文档/2025\ 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="ClionVersion/fast">
-				<Option output="/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/cmake-build-debug/ClionVersion" prefix_auto="0" extension_auto="0"/>
+			<Target title="SIMS/fast">
+				<Option output="/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/cmake-build-debug/SIMS" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -75,51 +85,63 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j4 -f &quot;/home/oulashu/文档/2025\ 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/cmake-build-debug/Makefile&quot;  VERBOSE=1 ClionVersion/fast"/>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/oulashu/文档/2025\ 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/cmake-build-debug/Makefile&quot;  VERBOSE=1 SIMS/fast"/>
 					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/oulashu/文档/2025\ 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/oulashu/文档/2025\ 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/oulashu/文档/2025\ 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/main.cpp">
-			<Option target="ClionVersion"/>
-		</Unit>
 		<Unit filename="/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/models/Course.cpp">
-			<Option target="ClionVersion"/>
+			<Option target="SIMS"/>
 		</Unit>
 		<Unit filename="/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/models/Course.h">
-			<Option target="ClionVersion"/>
+			<Option target="SIMS"/>
 		</Unit>
 		<Unit filename="/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/models/EnrollmentRecord.cpp">
-			<Option target="ClionVersion"/>
+			<Option target="SIMS"/>
 		</Unit>
 		<Unit filename="/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/models/EnrollmentRecord.h">
-			<Option target="ClionVersion"/>
+			<Option target="SIMS"/>
 		</Unit>
 		<Unit filename="/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/models/Student.cpp">
-			<Option target="ClionVersion"/>
+			<Option target="SIMS"/>
 		</Unit>
 		<Unit filename="/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/models/Student.h">
-			<Option target="ClionVersion"/>
+			<Option target="SIMS"/>
 		</Unit>
 		<Unit filename="/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/repositories/FileStudentRepository.cpp">
-			<Option target="ClionVersion"/>
+			<Option target="SIMS"/>
 		</Unit>
 		<Unit filename="/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/repositories/FileStudentRepository.h">
-			<Option target="ClionVersion"/>
+			<Option target="SIMS"/>
 		</Unit>
 		<Unit filename="/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/repositories/IStudentRepository.h">
-			<Option target="ClionVersion"/>
+			<Option target="SIMS"/>
 		</Unit>
 		<Unit filename="/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/repositories/InMemoryStudentRepository.cpp">
-			<Option target="ClionVersion"/>
+			<Option target="SIMS"/>
 		</Unit>
 		<Unit filename="/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/repositories/InMemoryStudentRepository.h">
-			<Option target="ClionVersion"/>
+			<Option target="SIMS"/>
+		</Unit>
+		<Unit filename="/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/repositories/RepositoriesUnitTest.cpp">
+			<Option target="SIMS"/>
 		</Unit>
 		<Unit filename="/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/../../../../../../../usr/local/lib/cmake/GTest/GTestConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\local\lib\cmake\GTest\"/>
+		</Unit>
+		<Unit filename="/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/../../../../../../../usr/local/lib/cmake/GTest/GTestConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\local\lib\cmake\GTest\"/>
+		</Unit>
+		<Unit filename="/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/../../../../../../../usr/local/lib/cmake/GTest/GTestTargets-noconfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\local\lib\cmake\GTest\"/>
+		</Unit>
+		<Unit filename="/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/../../../../../../../usr/local/lib/cmake/GTest/GTestTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\local\lib\cmake\GTest\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>

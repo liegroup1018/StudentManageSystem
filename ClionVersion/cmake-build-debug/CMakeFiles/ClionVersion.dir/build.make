@@ -66,22 +66,9 @@ include CMakeFiles/ClionVersion.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/ClionVersion.dir/flags.make
 
-CMakeFiles/ClionVersion.dir/main.cpp.o: CMakeFiles/ClionVersion.dir/flags.make
-CMakeFiles/ClionVersion.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ClionVersion.dir/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ClionVersion.dir/main.cpp.o -c "/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/main.cpp"
-
-CMakeFiles/ClionVersion.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ClionVersion.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/main.cpp" > CMakeFiles/ClionVersion.dir/main.cpp.i
-
-CMakeFiles/ClionVersion.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ClionVersion.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/main.cpp" -o CMakeFiles/ClionVersion.dir/main.cpp.s
-
 CMakeFiles/ClionVersion.dir/src/models/Student.cpp.o: CMakeFiles/ClionVersion.dir/flags.make
 CMakeFiles/ClionVersion.dir/src/models/Student.cpp.o: ../src/models/Student.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ClionVersion.dir/src/models/Student.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ClionVersion.dir/src/models/Student.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ClionVersion.dir/src/models/Student.cpp.o -c "/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/models/Student.cpp"
 
 CMakeFiles/ClionVersion.dir/src/models/Student.cpp.i: cmake_force
@@ -94,7 +81,7 @@ CMakeFiles/ClionVersion.dir/src/models/Student.cpp.s: cmake_force
 
 CMakeFiles/ClionVersion.dir/src/models/Course.cpp.o: CMakeFiles/ClionVersion.dir/flags.make
 CMakeFiles/ClionVersion.dir/src/models/Course.cpp.o: ../src/models/Course.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ClionVersion.dir/src/models/Course.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ClionVersion.dir/src/models/Course.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ClionVersion.dir/src/models/Course.cpp.o -c "/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/models/Course.cpp"
 
 CMakeFiles/ClionVersion.dir/src/models/Course.cpp.i: cmake_force
@@ -107,7 +94,7 @@ CMakeFiles/ClionVersion.dir/src/models/Course.cpp.s: cmake_force
 
 CMakeFiles/ClionVersion.dir/src/models/EnrollmentRecord.cpp.o: CMakeFiles/ClionVersion.dir/flags.make
 CMakeFiles/ClionVersion.dir/src/models/EnrollmentRecord.cpp.o: ../src/models/EnrollmentRecord.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ClionVersion.dir/src/models/EnrollmentRecord.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ClionVersion.dir/src/models/EnrollmentRecord.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ClionVersion.dir/src/models/EnrollmentRecord.cpp.o -c "/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/models/EnrollmentRecord.cpp"
 
 CMakeFiles/ClionVersion.dir/src/models/EnrollmentRecord.cpp.i: cmake_force
@@ -120,7 +107,7 @@ CMakeFiles/ClionVersion.dir/src/models/EnrollmentRecord.cpp.s: cmake_force
 
 CMakeFiles/ClionVersion.dir/src/repositories/InMemoryStudentRepository.cpp.o: CMakeFiles/ClionVersion.dir/flags.make
 CMakeFiles/ClionVersion.dir/src/repositories/InMemoryStudentRepository.cpp.o: ../src/repositories/InMemoryStudentRepository.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/ClionVersion.dir/src/repositories/InMemoryStudentRepository.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ClionVersion.dir/src/repositories/InMemoryStudentRepository.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ClionVersion.dir/src/repositories/InMemoryStudentRepository.cpp.o -c "/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/repositories/InMemoryStudentRepository.cpp"
 
 CMakeFiles/ClionVersion.dir/src/repositories/InMemoryStudentRepository.cpp.i: cmake_force
@@ -133,7 +120,7 @@ CMakeFiles/ClionVersion.dir/src/repositories/InMemoryStudentRepository.cpp.s: cm
 
 CMakeFiles/ClionVersion.dir/src/repositories/FileStudentRepository.cpp.o: CMakeFiles/ClionVersion.dir/flags.make
 CMakeFiles/ClionVersion.dir/src/repositories/FileStudentRepository.cpp.o: ../src/repositories/FileStudentRepository.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/ClionVersion.dir/src/repositories/FileStudentRepository.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/ClionVersion.dir/src/repositories/FileStudentRepository.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ClionVersion.dir/src/repositories/FileStudentRepository.cpp.o -c "/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/repositories/FileStudentRepository.cpp"
 
 CMakeFiles/ClionVersion.dir/src/repositories/FileStudentRepository.cpp.i: cmake_force
@@ -144,24 +131,37 @@ CMakeFiles/ClionVersion.dir/src/repositories/FileStudentRepository.cpp.s: cmake_
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ClionVersion.dir/src/repositories/FileStudentRepository.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/repositories/FileStudentRepository.cpp" -o CMakeFiles/ClionVersion.dir/src/repositories/FileStudentRepository.cpp.s
 
+CMakeFiles/ClionVersion.dir/src/repositories/RepositoriesUnitTest.cpp.o: CMakeFiles/ClionVersion.dir/flags.make
+CMakeFiles/ClionVersion.dir/src/repositories/RepositoriesUnitTest.cpp.o: ../src/repositories/RepositoriesUnitTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/ClionVersion.dir/src/repositories/RepositoriesUnitTest.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ClionVersion.dir/src/repositories/RepositoriesUnitTest.cpp.o -c "/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/repositories/RepositoriesUnitTest.cpp"
+
+CMakeFiles/ClionVersion.dir/src/repositories/RepositoriesUnitTest.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ClionVersion.dir/src/repositories/RepositoriesUnitTest.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/repositories/RepositoriesUnitTest.cpp" > CMakeFiles/ClionVersion.dir/src/repositories/RepositoriesUnitTest.cpp.i
+
+CMakeFiles/ClionVersion.dir/src/repositories/RepositoriesUnitTest.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ClionVersion.dir/src/repositories/RepositoriesUnitTest.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/repositories/RepositoriesUnitTest.cpp" -o CMakeFiles/ClionVersion.dir/src/repositories/RepositoriesUnitTest.cpp.s
+
 # Object files for target ClionVersion
 ClionVersion_OBJECTS = \
-"CMakeFiles/ClionVersion.dir/main.cpp.o" \
 "CMakeFiles/ClionVersion.dir/src/models/Student.cpp.o" \
 "CMakeFiles/ClionVersion.dir/src/models/Course.cpp.o" \
 "CMakeFiles/ClionVersion.dir/src/models/EnrollmentRecord.cpp.o" \
 "CMakeFiles/ClionVersion.dir/src/repositories/InMemoryStudentRepository.cpp.o" \
-"CMakeFiles/ClionVersion.dir/src/repositories/FileStudentRepository.cpp.o"
+"CMakeFiles/ClionVersion.dir/src/repositories/FileStudentRepository.cpp.o" \
+"CMakeFiles/ClionVersion.dir/src/repositories/RepositoriesUnitTest.cpp.o"
 
 # External object files for target ClionVersion
 ClionVersion_EXTERNAL_OBJECTS =
 
-ClionVersion: CMakeFiles/ClionVersion.dir/main.cpp.o
 ClionVersion: CMakeFiles/ClionVersion.dir/src/models/Student.cpp.o
 ClionVersion: CMakeFiles/ClionVersion.dir/src/models/Course.cpp.o
 ClionVersion: CMakeFiles/ClionVersion.dir/src/models/EnrollmentRecord.cpp.o
 ClionVersion: CMakeFiles/ClionVersion.dir/src/repositories/InMemoryStudentRepository.cpp.o
 ClionVersion: CMakeFiles/ClionVersion.dir/src/repositories/FileStudentRepository.cpp.o
+ClionVersion: CMakeFiles/ClionVersion.dir/src/repositories/RepositoriesUnitTest.cpp.o
 ClionVersion: CMakeFiles/ClionVersion.dir/build.make
 ClionVersion: CMakeFiles/ClionVersion.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable ClionVersion"

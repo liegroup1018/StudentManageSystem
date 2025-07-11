@@ -24,6 +24,8 @@ public:
 
     std::vector<Student> getAllStudents() const override;
 
+    bool containStudent(const std::string& id) const override;
+
     virtual ~FileStudentRepository();
 
 private:
@@ -33,7 +35,6 @@ private:
     // Private helper methods to handle file I/O
     void loadData(); // Reads from the CSV file into the students vector
     void saveData(); // Writes the students vector back to the CSV file
-    bool containStudent(const std::string& id) const; // 检查是否包含该学生
 };
 
 
