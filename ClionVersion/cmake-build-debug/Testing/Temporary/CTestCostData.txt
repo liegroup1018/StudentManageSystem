@@ -1,4 +1,7 @@
-AddAndContainStudentTest.AddNotExit 3 0.000828153
-GetAllStudents.NoStudentsExits 2 0.00117941
-InMemoryRepositoryStudentTest.GetStudentExit 1 0.00241143
+AddAndContainStudentTest.AddNotExit 5 0.000655589
+GetAllStudents.NoStudentsExits 4 0.000854528
+InMemoryRepositoryStudentTest.GetStudentExit 3 0.000787087
+InMemoryRepositoryStudentTest.GetStudentNotExit 2 0.00125967
+LoadData.FileNotExit 1 0.00303385
+LoadData.FileExit 1 0.00627484
 ---

@@ -1,0 +1,6 @@
+StudentId,FullName,Level
+S039482,James Smith,3
+S712345,Jennifer Garcia,2
+S198237,Robert Wilson,4
+S563289,Mary Rodriguez,1
+S874563,David Martinez,3

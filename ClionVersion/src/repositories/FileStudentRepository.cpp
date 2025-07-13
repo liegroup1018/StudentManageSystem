@@ -24,6 +24,7 @@ void FileStudentRepository::deleteStudent(const std::string &id) {
 
         auto it = std::find_if(students.begin(), students.end(), exist);
         students.erase(it);
+        return;
     }
     throw StudentRepositotyError("Cannot delete. Student with ID '" + id + "' not found.");
 }
@@ -37,6 +38,7 @@ void FileStudentRepository::updateStudent(const Student &student) {
 
         auto it = std::find_if(students.begin(), students.end(), exist);
         *it = student;
+        return;
     }
     throw StudentRepositotyError("Cannot update. Student with ID '" + id + "' not found.");
 }
@@ -101,7 +103,13 @@ FileStudentRepository::~FileStudentRepository() {
 
 
 void FileStudentRepository::addStudent(const Student &student) {
-    students.push_back(student);
+    std::string id = student.getStudentId();
+    if (!containStudent(id)){
+        students.push_back(student);
+        return;
+    }
+
+    throw StudentRepositotyError("Student with ID '" + id + "' already in.");
 }
 
 bool FileStudentRepository::containStudent(const std::string &id) const {

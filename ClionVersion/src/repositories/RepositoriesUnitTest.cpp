@@ -69,7 +69,65 @@ TEST_F(InMemoryRepositoryStudentTest, GetStudentNotExit){
 
 
 /******************* StudentFileRepositoryTest**********************/
+//TEST(LoadData, FileNotExit){
+//    std::string filepath = "../src/repositories/students.txt";
+//    std::string error;
+//
+//    try {
+//        FileStudentRepository fr(filepath);
+//    }
+//    catch (StudentRepositotyError& e){
+//        error = e.what();
+//    }
+//    EXPECT_EQ("can not open: " + filepath + "!", error);
+//}
 
+TEST(LoadData, FileExit){
+    std::string filepath = "../src/repositories/students.txt";
+    std::string error = "";
 
+    try {
+        FileStudentRepository fr(filepath);
+        EXPECT_EQ(true, fr.containStudent("S039482"));
+        EXPECT_EQ(true, fr.containStudent("S712345"));
+        EXPECT_EQ(true, fr.containStudent("S198237"));
+        EXPECT_EQ(true, fr.containStudent("S563289"));
+        EXPECT_EQ(true, fr.containStudent("S874563"));
+    }
+    catch (StudentRepositotyError& e){
+        error = e.what();
+    }
+    EXPECT_EQ("", error);
+}
+
+TEST(SaveData, AddNew){
+    std::string filepath = "../src/repositories/students.txt";
+
+    {
+        FileStudentRepository fr(filepath);
+        Student s1{"S753249","Elizabeth Jackson",2};
+        Student s2{"S864972","Joseph White",4};
+        fr.addStudent(s1);
+        fr.addStudent(s2);
+    }
+
+    FileStudentRepository fr1(filepath);
+    EXPECT_EQ(true, fr1.containStudent("S753249"));
+    EXPECT_EQ(true, fr1.containStudent("S864972"));
+}
+
+TEST(SaveData, DeleteAlreadyIn){
+    std::string filepath = "../src/repositories/students.txt";
+
+    {
+        FileStudentRepository fr(filepath);
+        fr.deleteStudent("S753249");
+        fr.deleteStudent("S864972");
+    }
+
+    FileStudentRepository fr1(filepath);
+    EXPECT_EQ(false, fr1.containStudent("S753249"));
+    EXPECT_EQ(false, fr1.containStudent("S864972"));
+}
 
 /******************* StudentFileRepositoryTest**********************/
