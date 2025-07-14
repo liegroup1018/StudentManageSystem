@@ -211,6 +211,30 @@ src/models/Student.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SIMS.dir/build.make CMakeFiles/SIMS.dir/src/models/Student.cpp.s
 .PHONY : src/models/Student.cpp.s
 
+src/repositories/FileCourseRepository.o: src/repositories/FileCourseRepository.cpp.o
+.PHONY : src/repositories/FileCourseRepository.o
+
+# target to build an object file
+src/repositories/FileCourseRepository.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SIMS.dir/build.make CMakeFiles/SIMS.dir/src/repositories/FileCourseRepository.cpp.o
+.PHONY : src/repositories/FileCourseRepository.cpp.o
+
+src/repositories/FileCourseRepository.i: src/repositories/FileCourseRepository.cpp.i
+.PHONY : src/repositories/FileCourseRepository.i
+
+# target to preprocess a source file
+src/repositories/FileCourseRepository.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SIMS.dir/build.make CMakeFiles/SIMS.dir/src/repositories/FileCourseRepository.cpp.i
+.PHONY : src/repositories/FileCourseRepository.cpp.i
+
+src/repositories/FileCourseRepository.s: src/repositories/FileCourseRepository.cpp.s
+.PHONY : src/repositories/FileCourseRepository.s
+
+# target to generate assembly for a file
+src/repositories/FileCourseRepository.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SIMS.dir/build.make CMakeFiles/SIMS.dir/src/repositories/FileCourseRepository.cpp.s
+.PHONY : src/repositories/FileCourseRepository.cpp.s
+
 src/repositories/FileStudentRepository.o: src/repositories/FileStudentRepository.cpp.o
 .PHONY : src/repositories/FileStudentRepository.o
 
@@ -234,6 +258,54 @@ src/repositories/FileStudentRepository.s: src/repositories/FileStudentRepository
 src/repositories/FileStudentRepository.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SIMS.dir/build.make CMakeFiles/SIMS.dir/src/repositories/FileStudentRepository.cpp.s
 .PHONY : src/repositories/FileStudentRepository.cpp.s
+
+src/repositories/InMemoryCourseRepository.o: src/repositories/InMemoryCourseRepository.cpp.o
+.PHONY : src/repositories/InMemoryCourseRepository.o
+
+# target to build an object file
+src/repositories/InMemoryCourseRepository.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SIMS.dir/build.make CMakeFiles/SIMS.dir/src/repositories/InMemoryCourseRepository.cpp.o
+.PHONY : src/repositories/InMemoryCourseRepository.cpp.o
+
+src/repositories/InMemoryCourseRepository.i: src/repositories/InMemoryCourseRepository.cpp.i
+.PHONY : src/repositories/InMemoryCourseRepository.i
+
+# target to preprocess a source file
+src/repositories/InMemoryCourseRepository.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SIMS.dir/build.make CMakeFiles/SIMS.dir/src/repositories/InMemoryCourseRepository.cpp.i
+.PHONY : src/repositories/InMemoryCourseRepository.cpp.i
+
+src/repositories/InMemoryCourseRepository.s: src/repositories/InMemoryCourseRepository.cpp.s
+.PHONY : src/repositories/InMemoryCourseRepository.s
+
+# target to generate assembly for a file
+src/repositories/InMemoryCourseRepository.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SIMS.dir/build.make CMakeFiles/SIMS.dir/src/repositories/InMemoryCourseRepository.cpp.s
+.PHONY : src/repositories/InMemoryCourseRepository.cpp.s
+
+src/repositories/InMemoryEnrollmentRepository.o: src/repositories/InMemoryEnrollmentRepository.cpp.o
+.PHONY : src/repositories/InMemoryEnrollmentRepository.o
+
+# target to build an object file
+src/repositories/InMemoryEnrollmentRepository.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SIMS.dir/build.make CMakeFiles/SIMS.dir/src/repositories/InMemoryEnrollmentRepository.cpp.o
+.PHONY : src/repositories/InMemoryEnrollmentRepository.cpp.o
+
+src/repositories/InMemoryEnrollmentRepository.i: src/repositories/InMemoryEnrollmentRepository.cpp.i
+.PHONY : src/repositories/InMemoryEnrollmentRepository.i
+
+# target to preprocess a source file
+src/repositories/InMemoryEnrollmentRepository.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SIMS.dir/build.make CMakeFiles/SIMS.dir/src/repositories/InMemoryEnrollmentRepository.cpp.i
+.PHONY : src/repositories/InMemoryEnrollmentRepository.cpp.i
+
+src/repositories/InMemoryEnrollmentRepository.s: src/repositories/InMemoryEnrollmentRepository.cpp.s
+.PHONY : src/repositories/InMemoryEnrollmentRepository.s
+
+# target to generate assembly for a file
+src/repositories/InMemoryEnrollmentRepository.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SIMS.dir/build.make CMakeFiles/SIMS.dir/src/repositories/InMemoryEnrollmentRepository.cpp.s
+.PHONY : src/repositories/InMemoryEnrollmentRepository.cpp.s
 
 src/repositories/InMemoryStudentRepository.o: src/repositories/InMemoryStudentRepository.cpp.o
 .PHONY : src/repositories/InMemoryStudentRepository.o
@@ -302,9 +374,18 @@ help:
 	@echo "... src/models/Student.o"
 	@echo "... src/models/Student.i"
 	@echo "... src/models/Student.s"
+	@echo "... src/repositories/FileCourseRepository.o"
+	@echo "... src/repositories/FileCourseRepository.i"
+	@echo "... src/repositories/FileCourseRepository.s"
 	@echo "... src/repositories/FileStudentRepository.o"
 	@echo "... src/repositories/FileStudentRepository.i"
 	@echo "... src/repositories/FileStudentRepository.s"
+	@echo "... src/repositories/InMemoryCourseRepository.o"
+	@echo "... src/repositories/InMemoryCourseRepository.i"
+	@echo "... src/repositories/InMemoryCourseRepository.s"
+	@echo "... src/repositories/InMemoryEnrollmentRepository.o"
+	@echo "... src/repositories/InMemoryEnrollmentRepository.i"
+	@echo "... src/repositories/InMemoryEnrollmentRepository.s"
 	@echo "... src/repositories/InMemoryStudentRepository.o"
 	@echo "... src/repositories/InMemoryStudentRepository.i"
 	@echo "... src/repositories/InMemoryStudentRepository.s"

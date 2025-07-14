@@ -1,6 +1,4 @@
 /home/oulashu/下载/CLion-2021.2.1/clion-2021.2.1/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - Unix Makefiles" "/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion"
--- Found GTest: /usr/local/lib/cmake/GTest/GTestConfig.cmake (found version "1.16.0")  
--- Found Threads: TRUE  
 -- Configuring done
 -- Generating done
 -- Build files have been written to: /home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/cmake-build-debug

@@ -10,19 +10,33 @@ CMakeFiles/SIMS.dir/src/models/EnrollmentRecord.cpp.o: \
 CMakeFiles/SIMS.dir/src/models/Student.cpp.o: \
  ../src/models/Student.cpp \
  ../src/models/Student.h
+CMakeFiles/SIMS.dir/src/repositories/FileCourseRepository.cpp.o: \
+ ../src/models/Course.h \
+ ../src/repositories/FileCourseRepository.cpp \
+ ../src/repositories/FileCourseRepository.h \
+ ../src/repositories/ICourseRepository.h
 CMakeFiles/SIMS.dir/src/repositories/FileStudentRepository.cpp.o: \
  ../src/models/Student.h \
  ../src/repositories/FileStudentRepository.cpp \
  ../src/repositories/FileStudentRepository.h \
  ../src/repositories/IStudentRepository.h
+CMakeFiles/SIMS.dir/src/repositories/InMemoryCourseRepository.cpp.o: \
+ ../src/models/Course.h \
+ ../src/repositories/ICourseRepository.h \
+ ../src/repositories/InMemoryCourseRepository.cpp \
+ ../src/repositories/InMemoryCourseRepository.h
 CMakeFiles/SIMS.dir/src/repositories/InMemoryStudentRepository.cpp.o: \
  ../src/models/Student.h \
  ../src/repositories/IStudentRepository.h \
  ../src/repositories/InMemoryStudentRepository.cpp \
  ../src/repositories/InMemoryStudentRepository.h
 CMakeFiles/SIMS.dir/src/repositories/RepositoriesUnitTest.cpp.o: \
+ ../src/models/Course.h \
  ../src/models/Student.h \
+ ../src/repositories/FileCourseRepository.h \
  ../src/repositories/FileStudentRepository.h \
+ ../src/repositories/ICourseRepository.h \
  ../src/repositories/IStudentRepository.h \
+ ../src/repositories/InMemoryCourseRepository.h \
  ../src/repositories/InMemoryStudentRepository.h \
  ../src/repositories/RepositoriesUnitTest.cpp

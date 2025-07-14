@@ -1,0 +1,6 @@
+CourseId,CourseName,CourseCode,Description
+C213654,Game Development,GD301,Creating games using Unity and Unreal Engine
+C635289,Cloud Computing,CS501,Basics of cloud services and deployment
+C329476,Embedded Systems,ECE301,Programming microcontrollers and IoT devices
+C453627,Web Development,IT101,Building websites with HTML
+C392615,Data Structures,CS201,Study of common data structures and algorithms

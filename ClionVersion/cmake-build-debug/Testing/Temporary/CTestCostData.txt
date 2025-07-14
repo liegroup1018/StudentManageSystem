@@ -4,4 +4,8 @@ InMemoryRepositoryStudentTest.GetStudentExit 3 0.000787087
 InMemoryRepositoryStudentTest.GetStudentNotExit 2 0.00125967
 LoadData.FileNotExit 1 0.00303385
 LoadData.FileExit 1 0.00627484
+AddAndContainCourseTest.AddNotExit 2 0.0013901
+GetAllCourses.NoCoursesExits 2 0.00133798
+InMemoryRepositoryCourseTest.GetCourseExit 2 0.00119644
+InMemoryRepositoryCourseTest.GetCourseNotExit 1 0.00273333
 ---
