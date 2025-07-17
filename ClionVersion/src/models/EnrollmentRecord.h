@@ -33,7 +33,7 @@ private:
     std::string studentId;
     std::string courseId;
     std::string term;
-    int grade = 0;
+    int grade = -1;
 };
 
 

@@ -3,6 +3,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/SIMS.dir/src/models/EnrollmentRecord.cpp.o"
   "CMakeFiles/SIMS.dir/src/models/Student.cpp.o"
   "CMakeFiles/SIMS.dir/src/repositories/FileCourseRepository.cpp.o"
+  "CMakeFiles/SIMS.dir/src/repositories/FileEnrollmentRepository.cpp.o"
   "CMakeFiles/SIMS.dir/src/repositories/FileStudentRepository.cpp.o"
   "CMakeFiles/SIMS.dir/src/repositories/InMemoryCourseRepository.cpp.o"
   "CMakeFiles/SIMS.dir/src/repositories/InMemoryEnrollmentRepository.cpp.o"

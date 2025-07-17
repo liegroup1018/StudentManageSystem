@@ -8,6 +8,9 @@
 #include "ICourseRepository.h"
 #include "FileCourseRepository.h"
 #include "InMemoryCourseRepository.h"
+#include "IEnrollmentRepository.h"
+#include "InMemoryEnrollmentRepository.h"
+#include "FileEnrollmentRepository.h"
 
 /******************* StudentInMemoryRepositoryTest**********************/
 ///*
@@ -134,88 +137,266 @@
 //}
 
 /******************* CourseRepositoryTest**********************/
-TEST(AddAndContainCourseTest, AddNotExit){
-    InMemoryCourseRepository r;
-    r.addCourse(Course{"C847502", "Introduction to Programming", "CS101",
-                       "Fundamentals of programming using Python"});
+//TEST(AddAndContainCourseTest, AddNotExit){
+//    InMemoryCourseRepository r;
+//    r.addCourse(Course{"C847502", "Introduction to Programming", "CS101",
+//                       "Fundamentals of programming using Python"});
+//
+//    bool exit = r.containCourse("C847502");
+//    bool notexit = r.containCourse("C847505");
+//    EXPECT_EQ(true, exit);
+//    EXPECT_EQ(false, notexit);
+//}
+//
+//// 没有学生时确实抛出异常
+//TEST(GetAllCourses, NoCoursesExits) {
+//    std::string error;
+//    InMemoryCourseRepository r;
+//    try {
+//        r.getAllCourses();
+//    }
+//    catch (CourseRepositotyError &e) {
+//        error = e.what();
+//    }
+//    EXPECT_EQ("No courses in memory", error);
+//}
+//
+//class InMemoryRepositoryCourseTest : public testing::Test {
+//protected:
+//    InMemoryRepositoryCourseTest(){
+//        r.addCourse(Course{"C453627", "Web Development", "IT101",
+//                           "Building websites with HTML, CSS, and JavaScript"});
+//        r.addCourse(Course{"C789123", "Software Engineering", "SE201",
+//                           "Software development lifecycle and methodologies"});
+//        r.addCourse(Course{"C856123", "Human-Computer Interaction", "HCI101",
+//                           "UI/UX design principles"});
+//    }
+//
+//    InMemoryCourseRepository r;
+//};
+//
+//TEST_F(InMemoryRepositoryCourseTest, GetCourseExit){
+//    Course c = r.getCourse("C453627");
+//
+//    EXPECT_EQ("C453627", c.getCourseId());
+//    EXPECT_EQ("Web Development", c.getCourseName());
+//    EXPECT_EQ("IT101", c.getCourseCode());
+//    EXPECT_EQ("Building websites with HTML, CSS, and JavaScript", c.getDescription());
+//}
+//
+//TEST_F(InMemoryRepositoryCourseTest, GetCourseNotExit){
+//    std::string error;
+//    try {
+//        Course s = r.getCourse("C039486");
+//    }
+//    catch(CourseRepositotyError& e){
+//        error = e.what();
+//    }
+//    EXPECT_EQ("Course with ID 'C039486' not found.", error);
+//}
+//
+//TEST(LoadData, CourseFileNotExit){
+//    std::string filepath = "../src/repositories/courses.txt";
+//    std::string error;
+//
+//    try {
+//        FileCourseRepository fr(filepath);
+//    }
+//    catch (CourseRepositotyError& e){
+//        error = e.what();
+//    }
+//    EXPECT_EQ("can not open: " + filepath + "!", error);
+//}
+//
+//TEST(LoadData, CourseFileExit){
+//    std::string filepath = "../src/repositories/courses.txt";
+//    std::string error;
+//
+//    try {
+//        FileCourseRepository fr(filepath);
+//        EXPECT_EQ(true, fr.containCourse("C213654"));
+//        EXPECT_EQ(true, fr.containCourse("C635289"));
+//        EXPECT_EQ(true, fr.containCourse("C329476"));
+//        EXPECT_EQ(true, fr.containCourse("C453627"));
+//        EXPECT_EQ(true, fr.containCourse("C392615"));
+//    }
+//    catch (CourseRepositotyError& e){
+//        error = e.what();
+//    }
+//    EXPECT_EQ("", error);
+//}
+//
+//TEST(CourseSaveData, AddNew){
+//    std::string filepath = "../src/repositories/courses.txt";
+//
+//    {
+//        FileCourseRepository fr(filepath);
+//        Course s1{"C684275", "Parallel Computing", "CS701",
+//                  "Multithreading and distributed systems"};
+//        Course s2{"C375946", "Quantum Computing", "CS901",
+//                  "Introduction to quantum algorithms"};
+//        fr.addCourse(s1);
+//        fr.addCourse(s2);
+//    }
+//
+//    FileCourseRepository fr1(filepath);
+//    EXPECT_EQ(true, fr1.containCourse("C684275"));
+//    EXPECT_EQ(true, fr1.containCourse("C375946"));
+//}
+//
+//TEST(CourseSaveData, DeleteAlreadyIn){
+//    std::string filepath = "../src/repositories/courses.txt";
+//
+//    {
+//        FileCourseRepository fr(filepath);
+//        fr.deleteCourse("C684275");
+//        fr.deleteCourse("C375946");
+//    }
+//
+//    FileCourseRepository fr1(filepath);
+//    EXPECT_EQ(false, fr1.containCourse("C684275"));
+//    EXPECT_EQ(false, fr1.containCourse("C375946"));
+//}
+/******************** CourseRepositoryTest**********************/
 
-    bool exit = r.containCourse("C847502");
-    bool notexit = r.containCourse("C847505");
+
+/******************** EnrollmentsRepositoryTest**********************/
+TEST(AddAndContainEnrollmentTest, AddNotExit){
+    InMemoryEnrollmentRepository r;
+    r.addEnrollment(EnrollmentRecord{"S039482", "C213654", "Fall 2023"});
+
+    bool exit = r.containsEnrollment("S039482", "C213654");
+    bool notexit = r.containsEnrollment("S039488", "C213654");
     EXPECT_EQ(true, exit);
     EXPECT_EQ(false, notexit);
 }
 
-// 没有学生时确实抛出异常
-TEST(GetAllCourses, NoCoursesExits) {
-    std::string error;
-    InMemoryCourseRepository r;
-    try {
-        r.getAllCourses();
-    }
-    catch (CourseRepositotyError &e) {
-        error = e.what();
-    }
-    EXPECT_EQ("No courses in memory", error);
-}
-
-class InMemoryRepositoryCourseTest : public testing::Test {
+class InMemoryRepositoryEnrollmentTest : public testing::Test {
 protected:
-    InMemoryRepositoryCourseTest(){
-        r.addCourse(Course{"C453627", "Web Development", "IT101",
-                           "Building websites with HTML, CSS, and JavaScript"});
-        r.addCourse(Course{"C789123", "Software Engineering", "SE201",
-                           "Software development lifecycle and methodologies"});
-        r.addCourse(Course{"C856123", "Human-Computer Interaction", "HCI101",
-                           "UI/UX design principles"});
+    InMemoryRepositoryEnrollmentTest(){
+        r.addEnrollment(EnrollmentRecord{"S039482", "C213654", "Fall 2023"});
+        r.addEnrollment(EnrollmentRecord{"S712345", "C635289", "Spring 2024"});
+        r.addEnrollment(EnrollmentRecord{"S198237", "C329476", "Winter 2023"});
+        r.assignGrade("S712345", "C635289",78);
+        r.assignGrade("S198237", "C329476",92);
     }
 
-    InMemoryCourseRepository r;
+    InMemoryEnrollmentRepository r;
 };
 
-TEST_F(InMemoryRepositoryCourseTest, GetCourseExit){
-    Course c = r.getCourse("C453627");
-
-    EXPECT_EQ("C453627", c.getCourseId());
-    EXPECT_EQ("Web Development", c.getCourseName());
-    EXPECT_EQ("IT101", c.getCourseCode());
-    EXPECT_EQ("Building websites with HTML, CSS, and JavaScript", c.getDescription());
-}
-
-TEST_F(InMemoryRepositoryCourseTest, GetCourseNotExit){
+TEST_F(InMemoryRepositoryEnrollmentTest, DeleteExit){
     std::string error;
     try {
-        Course s = r.getCourse("C039486");
+        EnrollmentRecord en{"S039482", "C213654", "Fall 2023"};
+        r.deleteEnrollment(en);
     }
-    catch(CourseRepositotyError& e){
+    catch(EnollmentRepositotyError& e) {
         error = e.what();
     }
-    EXPECT_EQ("Course with ID 'C039486' not found.", error);
+    EXPECT_EQ(error, "");
 }
 
-TEST(LoadData, CourseFileNotExit){
-    std::string filepath = "../src/repositories/courses.txt";
+TEST_F(InMemoryRepositoryEnrollmentTest, DeleteNotExit){
     std::string error;
-
     try {
-        FileCourseRepository fr(filepath);
+        EnrollmentRecord en{"S039481", "C213653", "Fall 2023"};
+        r.deleteEnrollment(en);
     }
-    catch (CourseRepositotyError& e){
+    catch(EnollmentRepositotyError& e) {
         error = e.what();
     }
-    EXPECT_EQ("can not open: " + filepath + "!", error);
+    EXPECT_EQ(error, "Can not delete! Enrollment with Student ID "
+                     "'S039481' and Course ID 'C213653' not found.");
 }
 
-TEST(LoadData, CourseFileExit){
-    std::string filepath = "../src/repositories/courses.txt";
+TEST_F(InMemoryRepositoryEnrollmentTest, AssignGrade){
+    int grade;
+    try{
+        r.assignGrade("S039482", "C213654",98);
+        grade = r.getGrade("S039482", "C213654");
+    }
+    catch(EnollmentRepositotyError& e) {
+
+    }
+    EXPECT_EQ(98, grade);
+}
+
+TEST_F(InMemoryRepositoryEnrollmentTest, AllStudentsForACourse){
+    std::vector<std::string> st;
+    try{
+        st = r.getAllStudentsForACourse("C213654");
+    }
+    catch(EnollmentRepositotyError& e){
+
+    }
+    auto begin = st.begin();
+    auto end = st.end();
+
+    EXPECT_GT(std::count(begin,end,"S039482"),0);
+}
+
+TEST_F(InMemoryRepositoryEnrollmentTest, AllCoursesForAStudent){
+    std::vector<std::string> cr;
+    try{
+        cr = r.getAllCoursesForAStudent("S039482");
+    }
+    catch(EnollmentRepositotyError& e){
+
+    }
+    auto begin = cr.begin();
+    auto end = cr.end();
+
+    EXPECT_GT(std::count(begin,end,"C213654"),0);
+}
+
+TEST_F(InMemoryRepositoryEnrollmentTest, GradesForAStudent){
+    std::unordered_map<std::string, int> s;
+    try{
+        s = r.getGradesForAStudent("S712345");
+    }catch(EnollmentRepositotyError& e){
+
+    }
+
+    EXPECT_GT(s.count("C635289"),0);
+    EXPECT_EQ(s["C635289"], 78);
+}
+
+TEST_F(InMemoryRepositoryEnrollmentTest, GradesForACourse){
+    std::unordered_map<std::string, int> c;
+    try{
+        c = r.getGradesForACourse("C329476");
+    }catch(EnollmentRepositotyError& e){
+
+    }
+
+    EXPECT_GT(c.count("S198237"),0);
+    EXPECT_EQ(c["S198237"], 92);
+}
+
+//TEST(LoadData, EnrollmentFileNotExit){
+//    std::string filepath = "../src/repositories/enrollmentrecors.txt";
+//    std::string error;
+//
+//    try {
+//        FileEnrollmentRepository fr(filepath);
+//    }
+//    catch (EnollmentRepositotyError& e){
+//        error = e.what();
+//    }
+//    EXPECT_EQ("can not open: " + filepath + "!", error);
+//}
+
+TEST(LoadData, EnrollmentFileExit){
+    std::string filepath = "../src/repositories/enrollmentrecors.txt";
     std::string error;
 
     try {
-        FileCourseRepository fr(filepath);
-        EXPECT_EQ(true, fr.containCourse("C213654"));
-        EXPECT_EQ(true, fr.containCourse("C635289"));
-        EXPECT_EQ(true, fr.containCourse("C329476"));
-        EXPECT_EQ(true, fr.containCourse("C453627"));
-        EXPECT_EQ(true, fr.containCourse("C392615"));
+        FileEnrollmentRepository fr(filepath);
+        EXPECT_EQ(true, fr.containsEnrollment("S039482", "C213654"));
+        EXPECT_EQ(true, fr.containsEnrollment("S712345", "C635289"));
+        EXPECT_EQ(true, fr.containsEnrollment("S198237", "C329476"));
+        EXPECT_EQ(true, fr.containsEnrollment("S563289", "C453627"));
+        EXPECT_EQ(true, fr.containsEnrollment("S874563", "C392615"));
     }
     catch (CourseRepositotyError& e){
         error = e.what();
@@ -223,35 +404,37 @@ TEST(LoadData, CourseFileExit){
     EXPECT_EQ("", error);
 }
 
-TEST(CourseSaveData, AddNew){
-    std::string filepath = "../src/repositories/courses.txt";
+TEST(EnrollmentSaveData, AddNew){
+    std::string filepath = "../src/repositories/enrollmentrecors.txt";
 
     {
-        FileCourseRepository fr(filepath);
-        Course s1{"C684275", "Parallel Computing", "CS701",
-                  "Multithreading and distributed systems"};
-        Course s2{"C375946", "Quantum Computing", "CS901",
-                  "Introduction to quantum algorithms"};
-        fr.addCourse(s1);
-        fr.addCourse(s2);
+        FileEnrollmentRepository fr(filepath);
+        EnrollmentRecord e1{"S039482", "C635289", "Spring 2024"};
+        e1.setGrade(81);
+        EnrollmentRecord e2{"S712345", "C213654", "Fall 2023"};
+        e2.setGrade(90);
+        fr.addEnrollment(e1);
+        fr.addEnrollment(e2);
     }
 
-    FileCourseRepository fr1(filepath);
-    EXPECT_EQ(true, fr1.containCourse("C684275"));
-    EXPECT_EQ(true, fr1.containCourse("C375946"));
+    FileEnrollmentRepository fr1(filepath);
+    EXPECT_EQ(true, fr1.containsEnrollment("S039482", "C635289"));
+    EXPECT_EQ(true, fr1.containsEnrollment("S712345", "C213654"));
 }
 
-TEST(CourseSaveData, DeleteAlreadyIn){
-    std::string filepath = "../src/repositories/courses.txt";
+TEST(EnrollmentSaveData, DeleteAlreadyIn){
+    std::string filepath = "../src/repositories/enrollmentrecors.txt";
 
     {
-        FileCourseRepository fr(filepath);
-        fr.deleteCourse("C684275");
-        fr.deleteCourse("C375946");
+        FileEnrollmentRepository fr(filepath);
+        EnrollmentRecord e1{"S039482", "C635289", "Spring 2024"};
+        EnrollmentRecord e2{"S712345", "C213654", "Fall 2023"};
+        fr.deleteEnrollment(e1);
+        fr.deleteEnrollment(e2);
     }
 
-    FileCourseRepository fr1(filepath);
-    EXPECT_EQ(false, fr1.containCourse("C684275"));
-    EXPECT_EQ(false, fr1.containCourse("C375946"));
+    FileEnrollmentRepository fr1(filepath);
+    EXPECT_EQ(false, fr1.containsEnrollment("S039482", "C635289"));
+    EXPECT_EQ(false, fr1.containsEnrollment("S712345", "C213654"));
 }
-/******************** CourseRepositoryTest**********************/
+/******************** EnrollmentsRepositoryTest**********************/

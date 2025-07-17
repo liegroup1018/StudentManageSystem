@@ -4,8 +4,6 @@
 
 #ifndef CLIONVERSION_IENROLLMENTREPOSITORY_H
 #define CLIONVERSION_IENROLLMENTREPOSITORY_H
-
-#endif //CLIONVERSION_IENROLLMENTREPOSITORY_H
 #include "../models/EnrollmentRecord.h"
 #include <vector>
 #include <stdexcept> // For std::runtime_error
@@ -35,17 +33,21 @@ public:
     // 读取指定学生选择的所有课程
     virtual std::vector<std::string> getAllCoursesForAStudent(const std::string& sid) = 0;
 
+    // 获取某个学生某门课的成绩
+    virtual int getGrade(const std::string& sid, const std::string& cid) = 0;
+
+    // 读取指定学生所有课程的成绩,key:courseID, value: grade
+    virtual std::unordered_map<std::string,int>
+    getGradesForAStudent(const std::string& sid) = 0;
+
+    // 读取指定课程所有学生的成绩, key:studentID, value: grade
+    virtual std::unordered_map<std::string,int>
+    getGradesForACourse(const std::string& cid) = 0;
+
     // 保存某个学生某门课的成绩
-    virtual void saveGrade(const std::string& sid, const std::string& cid, int grade) = 0;
-
-    // 读取指定学生所有课程的成绩
-    virtual std::unordered_map<std::string,int>
-        getGradesForAStudent(const std::string& sid) = 0;
-
-    // 读取指定课程所有学生的成绩
-    virtual std::unordered_map<std::string,int>
-        getGradesForACourse(const std::string& cid) = 0;
+    virtual void assignGrade(const std::string& sid, const std::string& cid, int grade) = 0;
 
     virtual bool containsEnrollment(const std::string& sid, const std::string& cid) = 0;
 
 };
+#endif //CLIONVERSION_IENROLLMENTREPOSITORY_H

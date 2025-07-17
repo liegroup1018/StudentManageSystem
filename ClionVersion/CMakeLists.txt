@@ -26,7 +26,9 @@ add_executable(SIMS
                             src/repositories/FileCourseRepository.h
                             src/repositories/IEnrollmentRepository.h
                             src/repositories/InMemoryEnrollmentRepository.cpp
-                            src/repositories/InMemoryEnrollmentRepository.h)
+                            src/repositories/InMemoryEnrollmentRepository.h
+                            src/repositories/FileEnrollmentRepository.cpp
+                            src/repositories/FileEnrollmentRepository.h)
 
 enable_testing()
 target_link_libraries(

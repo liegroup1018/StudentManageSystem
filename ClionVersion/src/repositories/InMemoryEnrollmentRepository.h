@@ -5,6 +5,7 @@
 #ifndef CLIONVERSION_INMEMORYENROLLMENTREPOSITORY_H
 #define CLIONVERSION_INMEMORYENROLLMENTREPOSITORY_H
 #include "IEnrollmentRepository.h"
+#include <algorithm>
 
 class InMemoryEnrollmentRepository : public IEnollmentRepository{
 public:
@@ -20,13 +21,15 @@ public:
 
     std::vector<std::string> getAllCoursesForAStudent(const std::string &sid) override;
 
-    void saveGrade(const std::string &sid, const std::string &cid, int grade) override;
+    int getGrade(const std::string &sid, const std::string &cid) override;
 
     std::unordered_map<std::string, int> getGradesForAStudent(const std::string &sid) override;
 
     std::unordered_map<std::string, int> getGradesForACourse(const std::string &cid) override;
 
     bool containsEnrollment(const std::string &sid, const std::string &cid) override;
+
+    void assignGrade(const std::string &sid, const std::string &cid, int grade) override;
 
 private:
     std::vector<EnrollmentRecord> enrollments;

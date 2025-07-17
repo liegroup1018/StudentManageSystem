@@ -15,6 +15,11 @@ CMakeFiles/SIMS.dir/src/repositories/FileCourseRepository.cpp.o: \
  ../src/repositories/FileCourseRepository.cpp \
  ../src/repositories/FileCourseRepository.h \
  ../src/repositories/ICourseRepository.h
+CMakeFiles/SIMS.dir/src/repositories/FileEnrollmentRepository.cpp.o: \
+ ../src/models/EnrollmentRecord.h \
+ ../src/repositories/FileEnrollmentRepository.cpp \
+ ../src/repositories/FileEnrollmentRepository.h \
+ ../src/repositories/IEnrollmentRepository.h
 CMakeFiles/SIMS.dir/src/repositories/FileStudentRepository.cpp.o: \
  ../src/models/Student.h \
  ../src/repositories/FileStudentRepository.cpp \
@@ -25,6 +30,11 @@ CMakeFiles/SIMS.dir/src/repositories/InMemoryCourseRepository.cpp.o: \
  ../src/repositories/ICourseRepository.h \
  ../src/repositories/InMemoryCourseRepository.cpp \
  ../src/repositories/InMemoryCourseRepository.h
+CMakeFiles/SIMS.dir/src/repositories/InMemoryEnrollmentRepository.cpp.o: \
+ ../src/models/EnrollmentRecord.h \
+ ../src/repositories/IEnrollmentRepository.h \
+ ../src/repositories/InMemoryEnrollmentRepository.cpp \
+ ../src/repositories/InMemoryEnrollmentRepository.h
 CMakeFiles/SIMS.dir/src/repositories/InMemoryStudentRepository.cpp.o: \
  ../src/models/Student.h \
  ../src/repositories/IStudentRepository.h \
@@ -32,11 +42,15 @@ CMakeFiles/SIMS.dir/src/repositories/InMemoryStudentRepository.cpp.o: \
  ../src/repositories/InMemoryStudentRepository.h
 CMakeFiles/SIMS.dir/src/repositories/RepositoriesUnitTest.cpp.o: \
  ../src/models/Course.h \
+ ../src/models/EnrollmentRecord.h \
  ../src/models/Student.h \
  ../src/repositories/FileCourseRepository.h \
+ ../src/repositories/FileEnrollmentRepository.h \
  ../src/repositories/FileStudentRepository.h \
  ../src/repositories/ICourseRepository.h \
+ ../src/repositories/IEnrollmentRepository.h \
  ../src/repositories/IStudentRepository.h \
  ../src/repositories/InMemoryCourseRepository.h \
+ ../src/repositories/InMemoryEnrollmentRepository.h \
  ../src/repositories/InMemoryStudentRepository.h \
  ../src/repositories/RepositoriesUnitTest.cpp

@@ -116,6 +116,12 @@
 		<Unit filename="/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/repositories/FileCourseRepository.h">
 			<Option target="SIMS"/>
 		</Unit>
+		<Unit filename="/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/repositories/FileEnrollmentRepository.cpp">
+			<Option target="SIMS"/>
+		</Unit>
+		<Unit filename="/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/repositories/FileEnrollmentRepository.h">
+			<Option target="SIMS"/>
+		</Unit>
 		<Unit filename="/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/repositories/FileStudentRepository.cpp">
 			<Option target="SIMS"/>
 		</Unit>

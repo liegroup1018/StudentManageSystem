@@ -235,6 +235,30 @@ src/repositories/FileCourseRepository.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SIMS.dir/build.make CMakeFiles/SIMS.dir/src/repositories/FileCourseRepository.cpp.s
 .PHONY : src/repositories/FileCourseRepository.cpp.s
 
+src/repositories/FileEnrollmentRepository.o: src/repositories/FileEnrollmentRepository.cpp.o
+.PHONY : src/repositories/FileEnrollmentRepository.o
+
+# target to build an object file
+src/repositories/FileEnrollmentRepository.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SIMS.dir/build.make CMakeFiles/SIMS.dir/src/repositories/FileEnrollmentRepository.cpp.o
+.PHONY : src/repositories/FileEnrollmentRepository.cpp.o
+
+src/repositories/FileEnrollmentRepository.i: src/repositories/FileEnrollmentRepository.cpp.i
+.PHONY : src/repositories/FileEnrollmentRepository.i
+
+# target to preprocess a source file
+src/repositories/FileEnrollmentRepository.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SIMS.dir/build.make CMakeFiles/SIMS.dir/src/repositories/FileEnrollmentRepository.cpp.i
+.PHONY : src/repositories/FileEnrollmentRepository.cpp.i
+
+src/repositories/FileEnrollmentRepository.s: src/repositories/FileEnrollmentRepository.cpp.s
+.PHONY : src/repositories/FileEnrollmentRepository.s
+
+# target to generate assembly for a file
+src/repositories/FileEnrollmentRepository.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SIMS.dir/build.make CMakeFiles/SIMS.dir/src/repositories/FileEnrollmentRepository.cpp.s
+.PHONY : src/repositories/FileEnrollmentRepository.cpp.s
+
 src/repositories/FileStudentRepository.o: src/repositories/FileStudentRepository.cpp.o
 .PHONY : src/repositories/FileStudentRepository.o
 
@@ -377,6 +401,9 @@ help:
 	@echo "... src/repositories/FileCourseRepository.o"
 	@echo "... src/repositories/FileCourseRepository.i"
 	@echo "... src/repositories/FileCourseRepository.s"
+	@echo "... src/repositories/FileEnrollmentRepository.o"
+	@echo "... src/repositories/FileEnrollmentRepository.i"
+	@echo "... src/repositories/FileEnrollmentRepository.s"
 	@echo "... src/repositories/FileStudentRepository.o"
 	@echo "... src/repositories/FileStudentRepository.i"
 	@echo "... src/repositories/FileStudentRepository.s"

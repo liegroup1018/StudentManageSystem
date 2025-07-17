@@ -183,6 +183,19 @@ CMakeFiles/SIMS.dir/src/repositories/InMemoryEnrollmentRepository.cpp.s: cmake_f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SIMS.dir/src/repositories/InMemoryEnrollmentRepository.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/repositories/InMemoryEnrollmentRepository.cpp" -o CMakeFiles/SIMS.dir/src/repositories/InMemoryEnrollmentRepository.cpp.s
 
+CMakeFiles/SIMS.dir/src/repositories/FileEnrollmentRepository.cpp.o: CMakeFiles/SIMS.dir/flags.make
+CMakeFiles/SIMS.dir/src/repositories/FileEnrollmentRepository.cpp.o: ../src/repositories/FileEnrollmentRepository.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/SIMS.dir/src/repositories/FileEnrollmentRepository.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SIMS.dir/src/repositories/FileEnrollmentRepository.cpp.o -c "/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/repositories/FileEnrollmentRepository.cpp"
+
+CMakeFiles/SIMS.dir/src/repositories/FileEnrollmentRepository.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SIMS.dir/src/repositories/FileEnrollmentRepository.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/repositories/FileEnrollmentRepository.cpp" > CMakeFiles/SIMS.dir/src/repositories/FileEnrollmentRepository.cpp.i
+
+CMakeFiles/SIMS.dir/src/repositories/FileEnrollmentRepository.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SIMS.dir/src/repositories/FileEnrollmentRepository.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/repositories/FileEnrollmentRepository.cpp" -o CMakeFiles/SIMS.dir/src/repositories/FileEnrollmentRepository.cpp.s
+
 # Object files for target SIMS
 SIMS_OBJECTS = \
 "CMakeFiles/SIMS.dir/src/models/Student.cpp.o" \
@@ -193,7 +206,8 @@ SIMS_OBJECTS = \
 "CMakeFiles/SIMS.dir/src/repositories/RepositoriesUnitTest.cpp.o" \
 "CMakeFiles/SIMS.dir/src/repositories/InMemoryCourseRepository.cpp.o" \
 "CMakeFiles/SIMS.dir/src/repositories/FileCourseRepository.cpp.o" \
-"CMakeFiles/SIMS.dir/src/repositories/InMemoryEnrollmentRepository.cpp.o"
+"CMakeFiles/SIMS.dir/src/repositories/InMemoryEnrollmentRepository.cpp.o" \
+"CMakeFiles/SIMS.dir/src/repositories/FileEnrollmentRepository.cpp.o"
 
 # External object files for target SIMS
 SIMS_EXTERNAL_OBJECTS =
@@ -207,11 +221,12 @@ SIMS: CMakeFiles/SIMS.dir/src/repositories/RepositoriesUnitTest.cpp.o
 SIMS: CMakeFiles/SIMS.dir/src/repositories/InMemoryCourseRepository.cpp.o
 SIMS: CMakeFiles/SIMS.dir/src/repositories/FileCourseRepository.cpp.o
 SIMS: CMakeFiles/SIMS.dir/src/repositories/InMemoryEnrollmentRepository.cpp.o
+SIMS: CMakeFiles/SIMS.dir/src/repositories/FileEnrollmentRepository.cpp.o
 SIMS: CMakeFiles/SIMS.dir/build.make
 SIMS: /usr/local/lib/libgtest_main.a
 SIMS: /usr/local/lib/libgtest.a
 SIMS: CMakeFiles/SIMS.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable SIMS"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable SIMS"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/SIMS.dir/link.txt --verbose=$(VERBOSE)
 	/home/oulashu/下载/CLion-2021.2.1/clion-2021.2.1/bin/cmake/linux/bin/cmake -D TEST_TARGET=SIMS -D "TEST_EXECUTABLE=/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/cmake-build-debug/SIMS" -D TEST_EXECUTOR= -D "TEST_WORKING_DIR=/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/cmake-build-debug" -D TEST_EXTRA_ARGS= -D TEST_PROPERTIES= -D TEST_PREFIX= -D TEST_SUFFIX= -D NO_PRETTY_TYPES=FALSE -D NO_PRETTY_VALUES=FALSE -D TEST_LIST=SIMS_TESTS -D "CTEST_FILE=/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/cmake-build-debug/SIMS[1]_tests.cmake" -D TEST_DISCOVERY_TIMEOUT=5 -D TEST_XML_OUTPUT_DIR= -P /home/oulashu/下载/CLion-2021.2.1/clion-2021.2.1/bin/cmake/linux/share/cmake-3.20/Modules/GoogleTestAddTests.cmake
 

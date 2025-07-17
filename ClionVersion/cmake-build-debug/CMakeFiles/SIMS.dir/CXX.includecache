@@ -10,6 +10,10 @@
 string
 -
 
+/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/models/EnrollmentRecord.h
+string
+-
+
 /home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/models/Student.h
 string
 -
@@ -17,6 +21,16 @@ string
 /home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/repositories/FileCourseRepository.h
 ICourseRepository.h
 /home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/repositories/ICourseRepository.h
+fstream
+-
+sstream
+-
+algorithm
+-
+
+/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/repositories/FileEnrollmentRepository.h
+IEnrollmentRepository.h
+/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/repositories/IEnrollmentRepository.h
 fstream
 -
 sstream
@@ -42,6 +56,16 @@ vector
 stdexcept
 -
 
+/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/repositories/IEnrollmentRepository.h
+../models/EnrollmentRecord.h
+/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/models/EnrollmentRecord.h
+vector
+-
+stdexcept
+-
+unordered_map
+-
+
 /home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/repositories/IStudentRepository.h
 ../models/Student.h
 /home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/models/Student.h
@@ -56,6 +80,12 @@ ICourseRepository.h
 algorithm
 -
 unordered_map
+-
+
+/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/repositories/InMemoryEnrollmentRepository.h
+IEnrollmentRepository.h
+/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/repositories/IEnrollmentRepository.h
+algorithm
 -
 
 /home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/repositories/InMemoryStudentRepository.h
@@ -81,4 +111,10 @@ FileCourseRepository.h
 /home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/repositories/FileCourseRepository.h
 InMemoryCourseRepository.h
 /home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/repositories/InMemoryCourseRepository.h
+IEnrollmentRepository.h
+/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/repositories/IEnrollmentRepository.h
+InMemoryEnrollmentRepository.h
+/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/repositories/InMemoryEnrollmentRepository.h
+FileEnrollmentRepository.h
+/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/repositories/FileEnrollmentRepository.h
 

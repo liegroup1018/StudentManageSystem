@@ -15,6 +15,11 @@ CMakeFiles/SIMS.dir/src/repositories/FileCourseRepository.cpp.o
  /home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/repositories/FileCourseRepository.cpp
  /home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/repositories/FileCourseRepository.h
  /home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/repositories/ICourseRepository.h
+CMakeFiles/SIMS.dir/src/repositories/FileEnrollmentRepository.cpp.o
+ /home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/models/EnrollmentRecord.h
+ /home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/repositories/FileEnrollmentRepository.cpp
+ /home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/repositories/FileEnrollmentRepository.h
+ /home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/repositories/IEnrollmentRepository.h
 CMakeFiles/SIMS.dir/src/repositories/FileStudentRepository.cpp.o
  /home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/models/Student.h
  /home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/repositories/FileStudentRepository.cpp
@@ -25,6 +30,11 @@ CMakeFiles/SIMS.dir/src/repositories/InMemoryCourseRepository.cpp.o
  /home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/repositories/ICourseRepository.h
  /home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/repositories/InMemoryCourseRepository.cpp
  /home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/repositories/InMemoryCourseRepository.h
+CMakeFiles/SIMS.dir/src/repositories/InMemoryEnrollmentRepository.cpp.o
+ /home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/models/EnrollmentRecord.h
+ /home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/repositories/IEnrollmentRepository.h
+ /home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/repositories/InMemoryEnrollmentRepository.cpp
+ /home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/repositories/InMemoryEnrollmentRepository.h
 CMakeFiles/SIMS.dir/src/repositories/InMemoryStudentRepository.cpp.o
  /home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/models/Student.h
  /home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/repositories/IStudentRepository.h
@@ -32,11 +42,15 @@ CMakeFiles/SIMS.dir/src/repositories/InMemoryStudentRepository.cpp.o
  /home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/repositories/InMemoryStudentRepository.h
 CMakeFiles/SIMS.dir/src/repositories/RepositoriesUnitTest.cpp.o
  /home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/models/Course.h
+ /home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/models/EnrollmentRecord.h
  /home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/models/Student.h
  /home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/repositories/FileCourseRepository.h
+ /home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/repositories/FileEnrollmentRepository.h
  /home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/repositories/FileStudentRepository.h
  /home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/repositories/ICourseRepository.h
+ /home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/repositories/IEnrollmentRepository.h
  /home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/repositories/IStudentRepository.h
  /home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/repositories/InMemoryCourseRepository.h
+ /home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/repositories/InMemoryEnrollmentRepository.h
  /home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/repositories/InMemoryStudentRepository.h
  /home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/repositories/RepositoriesUnitTest.cpp
