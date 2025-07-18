@@ -54,3 +54,6 @@ CMakeFiles/SIMS.dir/src/repositories/RepositoriesUnitTest.cpp.o: \
  ../src/repositories/InMemoryEnrollmentRepository.h \
  ../src/repositories/InMemoryStudentRepository.h \
  ../src/repositories/RepositoriesUnitTest.cpp
+CMakeFiles/SIMS.dir/src/views/BaseView.cpp.o: \
+ ../src/views/BaseView.cpp \
+ ../src/views/BaseView.h

@@ -18,6 +18,9 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/repositories/InMemoryEnrollmentRepository.cpp" "/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/cmake-build-debug/CMakeFiles/SIMS.dir/src/repositories/InMemoryEnrollmentRepository.cpp.o"
   "/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/repositories/InMemoryStudentRepository.cpp" "/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/cmake-build-debug/CMakeFiles/SIMS.dir/src/repositories/InMemoryStudentRepository.cpp.o"
   "/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/repositories/RepositoriesUnitTest.cpp" "/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/cmake-build-debug/CMakeFiles/SIMS.dir/src/repositories/RepositoriesUnitTest.cpp.o"
+  "/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/views/BaseView.cpp" "/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/cmake-build-debug/CMakeFiles/SIMS.dir/src/views/BaseView.cpp.o"
+  "/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/views/MainView.cpp" "/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/cmake-build-debug/CMakeFiles/SIMS.dir/src/views/MainView.cpp.o"
+  "/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/views/StudentView.cpp" "/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/cmake-build-debug/CMakeFiles/SIMS.dir/src/views/StudentView.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

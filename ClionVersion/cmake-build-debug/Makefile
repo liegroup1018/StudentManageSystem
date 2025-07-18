@@ -379,6 +379,78 @@ src/repositories/RepositoriesUnitTest.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SIMS.dir/build.make CMakeFiles/SIMS.dir/src/repositories/RepositoriesUnitTest.cpp.s
 .PHONY : src/repositories/RepositoriesUnitTest.cpp.s
 
+src/views/BaseView.o: src/views/BaseView.cpp.o
+.PHONY : src/views/BaseView.o
+
+# target to build an object file
+src/views/BaseView.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SIMS.dir/build.make CMakeFiles/SIMS.dir/src/views/BaseView.cpp.o
+.PHONY : src/views/BaseView.cpp.o
+
+src/views/BaseView.i: src/views/BaseView.cpp.i
+.PHONY : src/views/BaseView.i
+
+# target to preprocess a source file
+src/views/BaseView.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SIMS.dir/build.make CMakeFiles/SIMS.dir/src/views/BaseView.cpp.i
+.PHONY : src/views/BaseView.cpp.i
+
+src/views/BaseView.s: src/views/BaseView.cpp.s
+.PHONY : src/views/BaseView.s
+
+# target to generate assembly for a file
+src/views/BaseView.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SIMS.dir/build.make CMakeFiles/SIMS.dir/src/views/BaseView.cpp.s
+.PHONY : src/views/BaseView.cpp.s
+
+src/views/MainView.o: src/views/MainView.cpp.o
+.PHONY : src/views/MainView.o
+
+# target to build an object file
+src/views/MainView.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SIMS.dir/build.make CMakeFiles/SIMS.dir/src/views/MainView.cpp.o
+.PHONY : src/views/MainView.cpp.o
+
+src/views/MainView.i: src/views/MainView.cpp.i
+.PHONY : src/views/MainView.i
+
+# target to preprocess a source file
+src/views/MainView.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SIMS.dir/build.make CMakeFiles/SIMS.dir/src/views/MainView.cpp.i
+.PHONY : src/views/MainView.cpp.i
+
+src/views/MainView.s: src/views/MainView.cpp.s
+.PHONY : src/views/MainView.s
+
+# target to generate assembly for a file
+src/views/MainView.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SIMS.dir/build.make CMakeFiles/SIMS.dir/src/views/MainView.cpp.s
+.PHONY : src/views/MainView.cpp.s
+
+src/views/StudentView.o: src/views/StudentView.cpp.o
+.PHONY : src/views/StudentView.o
+
+# target to build an object file
+src/views/StudentView.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SIMS.dir/build.make CMakeFiles/SIMS.dir/src/views/StudentView.cpp.o
+.PHONY : src/views/StudentView.cpp.o
+
+src/views/StudentView.i: src/views/StudentView.cpp.i
+.PHONY : src/views/StudentView.i
+
+# target to preprocess a source file
+src/views/StudentView.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SIMS.dir/build.make CMakeFiles/SIMS.dir/src/views/StudentView.cpp.i
+.PHONY : src/views/StudentView.cpp.i
+
+src/views/StudentView.s: src/views/StudentView.cpp.s
+.PHONY : src/views/StudentView.s
+
+# target to generate assembly for a file
+src/views/StudentView.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SIMS.dir/build.make CMakeFiles/SIMS.dir/src/views/StudentView.cpp.s
+.PHONY : src/views/StudentView.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -419,6 +491,15 @@ help:
 	@echo "... src/repositories/RepositoriesUnitTest.o"
 	@echo "... src/repositories/RepositoriesUnitTest.i"
 	@echo "... src/repositories/RepositoriesUnitTest.s"
+	@echo "... src/views/BaseView.o"
+	@echo "... src/views/BaseView.i"
+	@echo "... src/views/BaseView.s"
+	@echo "... src/views/MainView.o"
+	@echo "... src/views/MainView.i"
+	@echo "... src/views/MainView.s"
+	@echo "... src/views/StudentView.o"
+	@echo "... src/views/StudentView.i"
+	@echo "... src/views/StudentView.s"
 .PHONY : help
 
 

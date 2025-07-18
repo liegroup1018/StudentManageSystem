@@ -158,6 +158,24 @@
 		<Unit filename="/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/repositories/RepositoriesUnitTest.cpp">
 			<Option target="SIMS"/>
 		</Unit>
+		<Unit filename="/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/views/BaseView.cpp">
+			<Option target="SIMS"/>
+		</Unit>
+		<Unit filename="/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/views/BaseView.h">
+			<Option target="SIMS"/>
+		</Unit>
+		<Unit filename="/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/views/MainView.cpp">
+			<Option target="SIMS"/>
+		</Unit>
+		<Unit filename="/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/views/MainView.h">
+			<Option target="SIMS"/>
+		</Unit>
+		<Unit filename="/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/views/StudentView.cpp">
+			<Option target="SIMS"/>
+		</Unit>
+		<Unit filename="/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/views/StudentView.h">
+			<Option target="SIMS"/>
+		</Unit>
 		<Unit filename="/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
