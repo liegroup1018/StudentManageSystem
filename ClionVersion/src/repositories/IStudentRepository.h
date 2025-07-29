@@ -38,7 +38,7 @@ public:
     // Throws std::runtime_error if the student to update is not found.
     virtual void updateStudent(const Student& student) = 0;
 
-    // æ£€æŸ¥æ˜¯å¦å­˜åœ¨æŒ‡å®šå­¦ç”Ÿï¼Œå­˜åœ¨åˆ™è¿”å› true, ä¸å­˜åœ¨åˆ™è¿”å› false
+    // ¼ì²éÊÇ·ñ´æÔÚÖ¸¶¨Ñ§Éú£¬´æÔÚÔò·µ»Ø true, ²»´æÔÚÔò·µ»Ø false
     virtual bool containStudent(const std::string& id) const = 0;
 
     // Retrieves a collection of all students.

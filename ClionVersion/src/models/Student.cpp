@@ -30,3 +30,7 @@ void Student::setLevel(int level) {
 
 Student::Student(const std::string &id, const std::string &name, int level)
     : studentId(id), fullName(name), level(level){}
+
+bool operator==(const Student &lhs, const Student &rhs) {
+    return lhs.studentId == rhs.studentId;
+}

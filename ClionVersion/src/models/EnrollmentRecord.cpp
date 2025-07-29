@@ -39,3 +39,7 @@ void EnrollmentRecord::setGrade(int grade) {
 EnrollmentRecord::EnrollmentRecord(const std::string &sid, const std::string &cid,
                                    const std::string &term)
     : studentId(sid), courseId(cid), term(term) {}
+
+bool operator==(const EnrollmentRecord &lhs, const EnrollmentRecord &rhs) {
+    return (lhs.courseId == rhs.courseId) && (lhs.studentId == rhs.studentId);
+}

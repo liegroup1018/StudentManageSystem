@@ -92,6 +92,15 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/controllers/AppController.cpp">
+			<Option target="SIMS"/>
+		</Unit>
+		<Unit filename="/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/controllers/AppController.h">
+			<Option target="SIMS"/>
+		</Unit>
+		<Unit filename="/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/controllers/AppControllerTest.cpp">
+			<Option target="SIMS"/>
+		</Unit>
 		<Unit filename="/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/models/Course.cpp">
 			<Option target="SIMS"/>
 		</Unit>
@@ -155,13 +164,46 @@
 		<Unit filename="/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/repositories/InMemoryStudentRepository.h">
 			<Option target="SIMS"/>
 		</Unit>
-		<Unit filename="/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/repositories/RepositoriesUnitTest.cpp">
+		<Unit filename="/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/services/CourseService.cpp">
+			<Option target="SIMS"/>
+		</Unit>
+		<Unit filename="/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/services/CourseService.h">
+			<Option target="SIMS"/>
+		</Unit>
+		<Unit filename="/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/services/EnrollmentService.cpp">
+			<Option target="SIMS"/>
+		</Unit>
+		<Unit filename="/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/services/EnrollmentService.h">
+			<Option target="SIMS"/>
+		</Unit>
+		<Unit filename="/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/services/StudentService.cpp">
+			<Option target="SIMS"/>
+		</Unit>
+		<Unit filename="/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/services/StudentService.h">
+			<Option target="SIMS"/>
+		</Unit>
+		<Unit filename="/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/utils/Validation.cpp">
+			<Option target="SIMS"/>
+		</Unit>
+		<Unit filename="/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/utils/Validation.h">
 			<Option target="SIMS"/>
 		</Unit>
 		<Unit filename="/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/views/BaseView.cpp">
 			<Option target="SIMS"/>
 		</Unit>
 		<Unit filename="/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/views/BaseView.h">
+			<Option target="SIMS"/>
+		</Unit>
+		<Unit filename="/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/views/CourseView.cpp">
+			<Option target="SIMS"/>
+		</Unit>
+		<Unit filename="/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/views/CourseView.h">
+			<Option target="SIMS"/>
+		</Unit>
+		<Unit filename="/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/views/EnrollmentView.cpp">
+			<Option target="SIMS"/>
+		</Unit>
+		<Unit filename="/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/views/EnrollmentView.h">
 			<Option target="SIMS"/>
 		</Unit>
 		<Unit filename="/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/views/MainView.cpp">

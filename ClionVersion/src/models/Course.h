@@ -29,6 +29,8 @@ public:
 
     void setDescription(const std::string &description);
 
+    friend bool operator==(const Course& lhs, const Course& rhs);
+
 private:
     std::string courseId;
     std::string courseName;

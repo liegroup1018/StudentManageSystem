@@ -10,8 +10,7 @@
 class EnrollmentRecord {
 public:
     EnrollmentRecord() = default;
-    EnrollmentRecord(const std::string& sid, const std::string& cid,
-                     const std::string& term);
+    EnrollmentRecord(const std::string& sid, const std::string& cid, const std::string& term);
 
     std::string getStudentId() const;
 
@@ -28,6 +27,8 @@ public:
     int getGrade() const;
 
     void setGrade(int grade);
+
+    friend bool operator==(const EnrollmentRecord& lhs, const EnrollmentRecord& rhs);
 
 private:
     std::string studentId;

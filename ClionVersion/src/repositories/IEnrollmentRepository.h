@@ -21,30 +21,30 @@ public:
 
     // --- Required Methods (The Contract) ---
 
-    // ä¿å­˜ä¸€æ¡æ–°çš„ç™»è®°ä¿¡æ¯
+    // ±£´æÒ»ÌõĞÂµÄµÇ¼ÇĞÅÏ¢
     virtual void addEnrollment(const EnrollmentRecord& e) = 0;
 
-    // åˆ é™¤ä¸€æ¡ç™»è®°ä¿¡æ¯
-    virtual void deleteEnrollment(const EnrollmentRecord& e) = 0;
+    // É¾³ıÒ»ÌõµÇ¼ÇĞÅÏ¢
+    virtual void deleteEnrollment(const std::string& sid, const std::string& cid) = 0;
 
-    // è¯»å–é€‰æ‹©æŒ‡å®šè¯¾ç¨‹çš„æ‰€æœ‰å­¦ç”Ÿ
+    // ¶ÁÈ¡Ñ¡ÔñÖ¸¶¨¿Î³ÌµÄËùÓĞÑ§Éú
     virtual std::vector<std::string> getAllStudentsForACourse(const std::string& cid) = 0;
 
-    // è¯»å–æŒ‡å®šå­¦ç”Ÿé€‰æ‹©çš„æ‰€æœ‰è¯¾ç¨‹
+    // ¶ÁÈ¡Ö¸¶¨Ñ§ÉúÑ¡ÔñµÄËùÓĞ¿Î³Ì
     virtual std::vector<std::string> getAllCoursesForAStudent(const std::string& sid) = 0;
 
-    // è·å–æŸä¸ªå­¦ç”ŸæŸé—¨è¯¾çš„æˆç»©
+    // »ñÈ¡Ä³¸öÑ§ÉúÄ³ÃÅ¿ÎµÄ³É¼¨
     virtual int getGrade(const std::string& sid, const std::string& cid) = 0;
 
-    // è¯»å–æŒ‡å®šå­¦ç”Ÿæ‰€æœ‰è¯¾ç¨‹çš„æˆç»©,key:courseID, value: grade
-    virtual std::unordered_map<std::string,int>
+    // ¶ÁÈ¡Ö¸¶¨Ñ§ÉúËùÓĞ¿Î³ÌµÄ³É¼¨,key:courseID, value: grade
+    virtual std::vector<EnrollmentRecord>
     getGradesForAStudent(const std::string& sid) = 0;
 
-    // è¯»å–æŒ‡å®šè¯¾ç¨‹æ‰€æœ‰å­¦ç”Ÿçš„æˆç»©, key:studentID, value: grade
-    virtual std::unordered_map<std::string,int>
+    // ¶ÁÈ¡Ö¸¶¨¿Î³ÌËùÓĞÑ§ÉúµÄ³É¼¨
+    virtual std::vector<EnrollmentRecord>
     getGradesForACourse(const std::string& cid) = 0;
 
-    // ä¿å­˜æŸä¸ªå­¦ç”ŸæŸé—¨è¯¾çš„æˆç»©
+    // ±£´æÄ³¸öÑ§ÉúÄ³ÃÅ¿ÎµÄ³É¼¨
     virtual void assignGrade(const std::string& sid, const std::string& cid, int grade) = 0;
 
     virtual bool containsEnrollment(const std::string& sid, const std::string& cid) = 0;

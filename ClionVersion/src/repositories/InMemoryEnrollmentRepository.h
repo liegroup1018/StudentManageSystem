@@ -15,7 +15,7 @@ public:
 
     void addEnrollment(const EnrollmentRecord &e) override;
 
-    void deleteEnrollment(const EnrollmentRecord &e) override;
+    void deleteEnrollment(const std::string& sid, const std::string& cid) override;
 
     std::vector<std::string> getAllStudentsForACourse(const std::string &cid) override;
 
@@ -23,9 +23,9 @@ public:
 
     int getGrade(const std::string &sid, const std::string &cid) override;
 
-    std::unordered_map<std::string, int> getGradesForAStudent(const std::string &sid) override;
+    std::vector<EnrollmentRecord> getGradesForAStudent(const std::string &sid) override;
 
-    std::unordered_map<std::string, int> getGradesForACourse(const std::string &cid) override;
+    std::vector<EnrollmentRecord> getGradesForACourse(const std::string &cid) override;
 
     bool containsEnrollment(const std::string &sid, const std::string &cid) override;
 

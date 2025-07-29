@@ -18,10 +18,8 @@ void InMemoryEnrollmentRepository::addEnrollment(const EnrollmentRecord &e) {
     }
 }
 
-void InMemoryEnrollmentRepository::deleteEnrollment(const EnrollmentRecord &e) {
-    std::string sid = e.getStudentId();
-    std::string cid = e.getCourseId();
-
+void InMemoryEnrollmentRepository::deleteEnrollment(const std::string& sid, const std::string& cid) {
+    
     auto exits = [&sid, &cid](EnrollmentRecord &e){
         return (e.getStudentId() == sid) && (e.getCourseId() == cid);
     };
@@ -89,13 +87,13 @@ int InMemoryEnrollmentRepository::getGrade(const std::string &sid, const std::st
     }
 }
 
-std::unordered_map<std::string, int> InMemoryEnrollmentRepository::
+std::vector<EnrollmentRecord> InMemoryEnrollmentRepository::
                                     getGradesForAStudent(const std::string &sid)
 {
-    std::unordered_map<std::string, int> gc;
+    std::vector<EnrollmentRecord> gc;
     for (const auto& e : enrollments) {
         if(e.getStudentId() == sid){
-            gc[e.getCourseId()] = e.getGrade();
+            gc.push_back(e);
         }
     }
 
@@ -108,13 +106,13 @@ std::unordered_map<std::string, int> InMemoryEnrollmentRepository::
     }
 }
 
-std::unordered_map<std::string, int> InMemoryEnrollmentRepository::
+std::vector<EnrollmentRecord> InMemoryEnrollmentRepository::
                                     getGradesForACourse(const std::string &cid)
 {
-    std::unordered_map<std::string, int> gs;
+    std::vector<EnrollmentRecord> gs;
     for (const auto& e : enrollments) {
         if(e.getCourseId() == cid){
-            gs[e.getStudentId()] = e.getGrade();
+            gs.push_back(e);
         }
     }
 

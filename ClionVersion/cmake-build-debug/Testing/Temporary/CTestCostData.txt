@@ -8,4 +8,10 @@ AddAndContainCourseTest.AddNotExit 2 0.0013901
 GetAllCourses.NoCoursesExits 2 0.00133798
 InMemoryRepositoryCourseTest.GetCourseExit 2 0.00119644
 InMemoryRepositoryCourseTest.GetCourseNotExit 1 0.00273333
+ServicesTest.GetStudent 2 0.00242259
+ServicesTest.GetCourse 2 0.00192419
+ServicesTest.GetEnrollment 2 0.00175002
+ServicesTest.GetStudentsForCourse 2 0.00188106
+ServicesTest.GetGradesForStudent 2 0.00179451
+ServicesTest.GetGradesForCourse 2 0.0017651
 ---

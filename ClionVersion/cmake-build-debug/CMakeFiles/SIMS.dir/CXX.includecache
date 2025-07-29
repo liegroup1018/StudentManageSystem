@@ -6,11 +6,211 @@
 
 #IncludeRegexTransform: 
 
-/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/views/BaseView.cpp
-BaseView.h
-/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/views/BaseView.h
+/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/controllers/AppController.h
+../services/StudentService.h
+/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/services/StudentService.h
+../services/CourseService.h
+/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/services/CourseService.h
+../services/EnrollmentService.h
+/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/services/EnrollmentService.h
+../views/MainView.h
+/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/views/MainView.h
+../views/StudentView.h
+/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/views/StudentView.h
+../views/CourseView.h
+/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/views/CourseView.h
+../views/EnrollmentView.h
+/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/views/EnrollmentView.h
+memory
+-
+
+/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/controllers/AppControllerTest.cpp
+gtest/gtest.h
+/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/controllers/gtest/gtest.h
+gmock/gmock.h
+/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/controllers/gmock/gmock.h
+AppController.h
+/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/controllers/AppController.h
+../services/StudentService.h
+/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/services/StudentService.h
+../services/CourseService.h
+/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/services/CourseService.h
+../services/EnrollmentService.h
+/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/services/EnrollmentService.h
+../repositories/FileStudentRepository.h
+/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/repositories/FileStudentRepository.h
+../repositories/FileCourseRepository.h
+/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/repositories/FileCourseRepository.h
+../repositories/FileEnrollmentRepository.h
+/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/repositories/FileEnrollmentRepository.h
+../views/MainView.h
+/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/views/MainView.h
+../views/StudentView.h
+/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/views/StudentView.h
+../views/CourseView.h
+/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/views/CourseView.h
+../views/EnrollmentView.h
+/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/views/EnrollmentView.h
+memory
+-
+
+/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/models/Course.h
+string
+-
+
+/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/models/EnrollmentRecord.h
+string
+-
+
+/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/models/Student.h
+string
+-
+
+/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/repositories/FileCourseRepository.h
+ICourseRepository.h
+/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/repositories/ICourseRepository.h
+fstream
+-
+sstream
+-
+algorithm
+-
+
+/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/repositories/FileEnrollmentRepository.h
+IEnrollmentRepository.h
+/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/repositories/IEnrollmentRepository.h
+fstream
+-
+sstream
+-
+algorithm
+-
+
+/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/repositories/FileStudentRepository.h
+IStudentRepository.h
+/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/repositories/IStudentRepository.h
+fstream
+-
+sstream
+-
+algorithm
+-
+
+/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/repositories/ICourseRepository.h
+../models/Course.h
+/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/models/Course.h
+vector
+-
+stdexcept
+-
+
+/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/repositories/IEnrollmentRepository.h
+../models/EnrollmentRecord.h
+/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/models/EnrollmentRecord.h
+vector
+-
+stdexcept
+-
+unordered_map
+-
+
+/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/repositories/IStudentRepository.h
+../models/Student.h
+/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/models/Student.h
+vector
+-
+stdexcept
+-
+
+/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/services/CourseService.h
+../repositories/FileCourseRepository.h
+/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/repositories/FileCourseRepository.h
+../models/Course.h
+/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/models/Course.h
+string
+-
+vector
+-
+memory
+-
+
+/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/services/EnrollmentService.h
+../repositories/FileEnrollmentRepository.h
+/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/repositories/FileEnrollmentRepository.h
+../repositories/FileStudentRepository.h
+/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/repositories/FileStudentRepository.h
+../repositories/FileCourseRepository.h
+/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/repositories/FileCourseRepository.h
+../models/EnrollmentRecord.h
+/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/models/EnrollmentRecord.h
+../models/Course.h
+/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/models/Course.h
+../models/Student.h
+/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/models/Student.h
+string
+-
+vector
+-
+memory
+-
+
+/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/services/StudentService.h
+../repositories/FileStudentRepository.h
+/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/repositories/FileStudentRepository.h
+../models/Student.h
+/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/models/Student.h
+string
+-
+vector
+-
+memory
+-
 
 /home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/views/BaseView.h
 string
+-
+
+/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/views/CourseView.h
+BaseView.h
+/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/views/BaseView.h
+vector
+-
+string
+-
+../models/Course.h
+/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/models/Course.h
+optional
+-
+
+/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/views/EnrollmentView.h
+BaseView.h
+/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/views/BaseView.h
+vector
+-
+string
+-
+optional
+-
+../models/EnrollmentRecord.h
+/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/models/EnrollmentRecord.h
+../models/Student.h
+/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/models/Student.h
+../models/Course.h
+/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/models/Course.h
+
+/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/views/MainView.h
+BaseView.h
+/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/views/BaseView.h
+
+/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/views/StudentView.h
+BaseView.h
+/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/views/BaseView.h
+vector
+-
+string
+-
+../models/Student.h
+/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/models/Student.h
+optional
 -
 

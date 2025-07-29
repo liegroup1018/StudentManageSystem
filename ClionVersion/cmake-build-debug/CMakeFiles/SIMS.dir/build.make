@@ -131,22 +131,9 @@ CMakeFiles/SIMS.dir/src/repositories/FileStudentRepository.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SIMS.dir/src/repositories/FileStudentRepository.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/repositories/FileStudentRepository.cpp" -o CMakeFiles/SIMS.dir/src/repositories/FileStudentRepository.cpp.s
 
-CMakeFiles/SIMS.dir/src/repositories/RepositoriesUnitTest.cpp.o: CMakeFiles/SIMS.dir/flags.make
-CMakeFiles/SIMS.dir/src/repositories/RepositoriesUnitTest.cpp.o: ../src/repositories/RepositoriesUnitTest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/SIMS.dir/src/repositories/RepositoriesUnitTest.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SIMS.dir/src/repositories/RepositoriesUnitTest.cpp.o -c "/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/repositories/RepositoriesUnitTest.cpp"
-
-CMakeFiles/SIMS.dir/src/repositories/RepositoriesUnitTest.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SIMS.dir/src/repositories/RepositoriesUnitTest.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/repositories/RepositoriesUnitTest.cpp" > CMakeFiles/SIMS.dir/src/repositories/RepositoriesUnitTest.cpp.i
-
-CMakeFiles/SIMS.dir/src/repositories/RepositoriesUnitTest.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SIMS.dir/src/repositories/RepositoriesUnitTest.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/repositories/RepositoriesUnitTest.cpp" -o CMakeFiles/SIMS.dir/src/repositories/RepositoriesUnitTest.cpp.s
-
 CMakeFiles/SIMS.dir/src/repositories/InMemoryCourseRepository.cpp.o: CMakeFiles/SIMS.dir/flags.make
 CMakeFiles/SIMS.dir/src/repositories/InMemoryCourseRepository.cpp.o: ../src/repositories/InMemoryCourseRepository.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/SIMS.dir/src/repositories/InMemoryCourseRepository.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/SIMS.dir/src/repositories/InMemoryCourseRepository.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SIMS.dir/src/repositories/InMemoryCourseRepository.cpp.o -c "/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/repositories/InMemoryCourseRepository.cpp"
 
 CMakeFiles/SIMS.dir/src/repositories/InMemoryCourseRepository.cpp.i: cmake_force
@@ -159,7 +146,7 @@ CMakeFiles/SIMS.dir/src/repositories/InMemoryCourseRepository.cpp.s: cmake_force
 
 CMakeFiles/SIMS.dir/src/repositories/FileCourseRepository.cpp.o: CMakeFiles/SIMS.dir/flags.make
 CMakeFiles/SIMS.dir/src/repositories/FileCourseRepository.cpp.o: ../src/repositories/FileCourseRepository.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/SIMS.dir/src/repositories/FileCourseRepository.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/SIMS.dir/src/repositories/FileCourseRepository.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SIMS.dir/src/repositories/FileCourseRepository.cpp.o -c "/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/repositories/FileCourseRepository.cpp"
 
 CMakeFiles/SIMS.dir/src/repositories/FileCourseRepository.cpp.i: cmake_force
@@ -172,7 +159,7 @@ CMakeFiles/SIMS.dir/src/repositories/FileCourseRepository.cpp.s: cmake_force
 
 CMakeFiles/SIMS.dir/src/repositories/InMemoryEnrollmentRepository.cpp.o: CMakeFiles/SIMS.dir/flags.make
 CMakeFiles/SIMS.dir/src/repositories/InMemoryEnrollmentRepository.cpp.o: ../src/repositories/InMemoryEnrollmentRepository.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/SIMS.dir/src/repositories/InMemoryEnrollmentRepository.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/SIMS.dir/src/repositories/InMemoryEnrollmentRepository.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SIMS.dir/src/repositories/InMemoryEnrollmentRepository.cpp.o -c "/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/repositories/InMemoryEnrollmentRepository.cpp"
 
 CMakeFiles/SIMS.dir/src/repositories/InMemoryEnrollmentRepository.cpp.i: cmake_force
@@ -185,7 +172,7 @@ CMakeFiles/SIMS.dir/src/repositories/InMemoryEnrollmentRepository.cpp.s: cmake_f
 
 CMakeFiles/SIMS.dir/src/repositories/FileEnrollmentRepository.cpp.o: CMakeFiles/SIMS.dir/flags.make
 CMakeFiles/SIMS.dir/src/repositories/FileEnrollmentRepository.cpp.o: ../src/repositories/FileEnrollmentRepository.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/SIMS.dir/src/repositories/FileEnrollmentRepository.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/SIMS.dir/src/repositories/FileEnrollmentRepository.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SIMS.dir/src/repositories/FileEnrollmentRepository.cpp.o -c "/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/repositories/FileEnrollmentRepository.cpp"
 
 CMakeFiles/SIMS.dir/src/repositories/FileEnrollmentRepository.cpp.i: cmake_force
@@ -198,7 +185,7 @@ CMakeFiles/SIMS.dir/src/repositories/FileEnrollmentRepository.cpp.s: cmake_force
 
 CMakeFiles/SIMS.dir/src/views/BaseView.cpp.o: CMakeFiles/SIMS.dir/flags.make
 CMakeFiles/SIMS.dir/src/views/BaseView.cpp.o: ../src/views/BaseView.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/SIMS.dir/src/views/BaseView.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/SIMS.dir/src/views/BaseView.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SIMS.dir/src/views/BaseView.cpp.o -c "/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/views/BaseView.cpp"
 
 CMakeFiles/SIMS.dir/src/views/BaseView.cpp.i: cmake_force
@@ -211,7 +198,7 @@ CMakeFiles/SIMS.dir/src/views/BaseView.cpp.s: cmake_force
 
 CMakeFiles/SIMS.dir/src/views/MainView.cpp.o: CMakeFiles/SIMS.dir/flags.make
 CMakeFiles/SIMS.dir/src/views/MainView.cpp.o: ../src/views/MainView.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/SIMS.dir/src/views/MainView.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/SIMS.dir/src/views/MainView.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SIMS.dir/src/views/MainView.cpp.o -c "/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/views/MainView.cpp"
 
 CMakeFiles/SIMS.dir/src/views/MainView.cpp.i: cmake_force
@@ -224,7 +211,7 @@ CMakeFiles/SIMS.dir/src/views/MainView.cpp.s: cmake_force
 
 CMakeFiles/SIMS.dir/src/views/StudentView.cpp.o: CMakeFiles/SIMS.dir/flags.make
 CMakeFiles/SIMS.dir/src/views/StudentView.cpp.o: ../src/views/StudentView.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/SIMS.dir/src/views/StudentView.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/SIMS.dir/src/views/StudentView.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SIMS.dir/src/views/StudentView.cpp.o -c "/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/views/StudentView.cpp"
 
 CMakeFiles/SIMS.dir/src/views/StudentView.cpp.i: cmake_force
@@ -235,6 +222,110 @@ CMakeFiles/SIMS.dir/src/views/StudentView.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SIMS.dir/src/views/StudentView.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/views/StudentView.cpp" -o CMakeFiles/SIMS.dir/src/views/StudentView.cpp.s
 
+CMakeFiles/SIMS.dir/src/views/CourseView.cpp.o: CMakeFiles/SIMS.dir/flags.make
+CMakeFiles/SIMS.dir/src/views/CourseView.cpp.o: ../src/views/CourseView.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/SIMS.dir/src/views/CourseView.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SIMS.dir/src/views/CourseView.cpp.o -c "/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/views/CourseView.cpp"
+
+CMakeFiles/SIMS.dir/src/views/CourseView.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SIMS.dir/src/views/CourseView.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/views/CourseView.cpp" > CMakeFiles/SIMS.dir/src/views/CourseView.cpp.i
+
+CMakeFiles/SIMS.dir/src/views/CourseView.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SIMS.dir/src/views/CourseView.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/views/CourseView.cpp" -o CMakeFiles/SIMS.dir/src/views/CourseView.cpp.s
+
+CMakeFiles/SIMS.dir/src/views/EnrollmentView.cpp.o: CMakeFiles/SIMS.dir/flags.make
+CMakeFiles/SIMS.dir/src/views/EnrollmentView.cpp.o: ../src/views/EnrollmentView.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/SIMS.dir/src/views/EnrollmentView.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SIMS.dir/src/views/EnrollmentView.cpp.o -c "/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/views/EnrollmentView.cpp"
+
+CMakeFiles/SIMS.dir/src/views/EnrollmentView.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SIMS.dir/src/views/EnrollmentView.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/views/EnrollmentView.cpp" > CMakeFiles/SIMS.dir/src/views/EnrollmentView.cpp.i
+
+CMakeFiles/SIMS.dir/src/views/EnrollmentView.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SIMS.dir/src/views/EnrollmentView.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/views/EnrollmentView.cpp" -o CMakeFiles/SIMS.dir/src/views/EnrollmentView.cpp.s
+
+CMakeFiles/SIMS.dir/src/services/CourseService.cpp.o: CMakeFiles/SIMS.dir/flags.make
+CMakeFiles/SIMS.dir/src/services/CourseService.cpp.o: ../src/services/CourseService.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/SIMS.dir/src/services/CourseService.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SIMS.dir/src/services/CourseService.cpp.o -c "/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/services/CourseService.cpp"
+
+CMakeFiles/SIMS.dir/src/services/CourseService.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SIMS.dir/src/services/CourseService.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/services/CourseService.cpp" > CMakeFiles/SIMS.dir/src/services/CourseService.cpp.i
+
+CMakeFiles/SIMS.dir/src/services/CourseService.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SIMS.dir/src/services/CourseService.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/services/CourseService.cpp" -o CMakeFiles/SIMS.dir/src/services/CourseService.cpp.s
+
+CMakeFiles/SIMS.dir/src/services/EnrollmentService.cpp.o: CMakeFiles/SIMS.dir/flags.make
+CMakeFiles/SIMS.dir/src/services/EnrollmentService.cpp.o: ../src/services/EnrollmentService.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/SIMS.dir/src/services/EnrollmentService.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SIMS.dir/src/services/EnrollmentService.cpp.o -c "/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/services/EnrollmentService.cpp"
+
+CMakeFiles/SIMS.dir/src/services/EnrollmentService.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SIMS.dir/src/services/EnrollmentService.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/services/EnrollmentService.cpp" > CMakeFiles/SIMS.dir/src/services/EnrollmentService.cpp.i
+
+CMakeFiles/SIMS.dir/src/services/EnrollmentService.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SIMS.dir/src/services/EnrollmentService.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/services/EnrollmentService.cpp" -o CMakeFiles/SIMS.dir/src/services/EnrollmentService.cpp.s
+
+CMakeFiles/SIMS.dir/src/services/StudentService.cpp.o: CMakeFiles/SIMS.dir/flags.make
+CMakeFiles/SIMS.dir/src/services/StudentService.cpp.o: ../src/services/StudentService.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/SIMS.dir/src/services/StudentService.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SIMS.dir/src/services/StudentService.cpp.o -c "/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/services/StudentService.cpp"
+
+CMakeFiles/SIMS.dir/src/services/StudentService.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SIMS.dir/src/services/StudentService.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/services/StudentService.cpp" > CMakeFiles/SIMS.dir/src/services/StudentService.cpp.i
+
+CMakeFiles/SIMS.dir/src/services/StudentService.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SIMS.dir/src/services/StudentService.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/services/StudentService.cpp" -o CMakeFiles/SIMS.dir/src/services/StudentService.cpp.s
+
+CMakeFiles/SIMS.dir/src/controllers/AppController.cpp.o: CMakeFiles/SIMS.dir/flags.make
+CMakeFiles/SIMS.dir/src/controllers/AppController.cpp.o: ../src/controllers/AppController.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/SIMS.dir/src/controllers/AppController.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SIMS.dir/src/controllers/AppController.cpp.o -c "/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/controllers/AppController.cpp"
+
+CMakeFiles/SIMS.dir/src/controllers/AppController.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SIMS.dir/src/controllers/AppController.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/controllers/AppController.cpp" > CMakeFiles/SIMS.dir/src/controllers/AppController.cpp.i
+
+CMakeFiles/SIMS.dir/src/controllers/AppController.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SIMS.dir/src/controllers/AppController.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/controllers/AppController.cpp" -o CMakeFiles/SIMS.dir/src/controllers/AppController.cpp.s
+
+CMakeFiles/SIMS.dir/src/controllers/AppControllerTest.cpp.o: CMakeFiles/SIMS.dir/flags.make
+CMakeFiles/SIMS.dir/src/controllers/AppControllerTest.cpp.o: ../src/controllers/AppControllerTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/SIMS.dir/src/controllers/AppControllerTest.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SIMS.dir/src/controllers/AppControllerTest.cpp.o -c "/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/controllers/AppControllerTest.cpp"
+
+CMakeFiles/SIMS.dir/src/controllers/AppControllerTest.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SIMS.dir/src/controllers/AppControllerTest.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/controllers/AppControllerTest.cpp" > CMakeFiles/SIMS.dir/src/controllers/AppControllerTest.cpp.i
+
+CMakeFiles/SIMS.dir/src/controllers/AppControllerTest.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SIMS.dir/src/controllers/AppControllerTest.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/controllers/AppControllerTest.cpp" -o CMakeFiles/SIMS.dir/src/controllers/AppControllerTest.cpp.s
+
+CMakeFiles/SIMS.dir/src/utils/Validation.cpp.o: CMakeFiles/SIMS.dir/flags.make
+CMakeFiles/SIMS.dir/src/utils/Validation.cpp.o: ../src/utils/Validation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/SIMS.dir/src/utils/Validation.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SIMS.dir/src/utils/Validation.cpp.o -c "/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/utils/Validation.cpp"
+
+CMakeFiles/SIMS.dir/src/utils/Validation.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SIMS.dir/src/utils/Validation.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/utils/Validation.cpp" > CMakeFiles/SIMS.dir/src/utils/Validation.cpp.i
+
+CMakeFiles/SIMS.dir/src/utils/Validation.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SIMS.dir/src/utils/Validation.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/src/utils/Validation.cpp" -o CMakeFiles/SIMS.dir/src/utils/Validation.cpp.s
+
 # Object files for target SIMS
 SIMS_OBJECTS = \
 "CMakeFiles/SIMS.dir/src/models/Student.cpp.o" \
@@ -242,14 +333,21 @@ SIMS_OBJECTS = \
 "CMakeFiles/SIMS.dir/src/models/EnrollmentRecord.cpp.o" \
 "CMakeFiles/SIMS.dir/src/repositories/InMemoryStudentRepository.cpp.o" \
 "CMakeFiles/SIMS.dir/src/repositories/FileStudentRepository.cpp.o" \
-"CMakeFiles/SIMS.dir/src/repositories/RepositoriesUnitTest.cpp.o" \
 "CMakeFiles/SIMS.dir/src/repositories/InMemoryCourseRepository.cpp.o" \
 "CMakeFiles/SIMS.dir/src/repositories/FileCourseRepository.cpp.o" \
 "CMakeFiles/SIMS.dir/src/repositories/InMemoryEnrollmentRepository.cpp.o" \
 "CMakeFiles/SIMS.dir/src/repositories/FileEnrollmentRepository.cpp.o" \
 "CMakeFiles/SIMS.dir/src/views/BaseView.cpp.o" \
 "CMakeFiles/SIMS.dir/src/views/MainView.cpp.o" \
-"CMakeFiles/SIMS.dir/src/views/StudentView.cpp.o"
+"CMakeFiles/SIMS.dir/src/views/StudentView.cpp.o" \
+"CMakeFiles/SIMS.dir/src/views/CourseView.cpp.o" \
+"CMakeFiles/SIMS.dir/src/views/EnrollmentView.cpp.o" \
+"CMakeFiles/SIMS.dir/src/services/CourseService.cpp.o" \
+"CMakeFiles/SIMS.dir/src/services/EnrollmentService.cpp.o" \
+"CMakeFiles/SIMS.dir/src/services/StudentService.cpp.o" \
+"CMakeFiles/SIMS.dir/src/controllers/AppController.cpp.o" \
+"CMakeFiles/SIMS.dir/src/controllers/AppControllerTest.cpp.o" \
+"CMakeFiles/SIMS.dir/src/utils/Validation.cpp.o"
 
 # External object files for target SIMS
 SIMS_EXTERNAL_OBJECTS =
@@ -259,7 +357,6 @@ SIMS: CMakeFiles/SIMS.dir/src/models/Course.cpp.o
 SIMS: CMakeFiles/SIMS.dir/src/models/EnrollmentRecord.cpp.o
 SIMS: CMakeFiles/SIMS.dir/src/repositories/InMemoryStudentRepository.cpp.o
 SIMS: CMakeFiles/SIMS.dir/src/repositories/FileStudentRepository.cpp.o
-SIMS: CMakeFiles/SIMS.dir/src/repositories/RepositoriesUnitTest.cpp.o
 SIMS: CMakeFiles/SIMS.dir/src/repositories/InMemoryCourseRepository.cpp.o
 SIMS: CMakeFiles/SIMS.dir/src/repositories/FileCourseRepository.cpp.o
 SIMS: CMakeFiles/SIMS.dir/src/repositories/InMemoryEnrollmentRepository.cpp.o
@@ -267,11 +364,21 @@ SIMS: CMakeFiles/SIMS.dir/src/repositories/FileEnrollmentRepository.cpp.o
 SIMS: CMakeFiles/SIMS.dir/src/views/BaseView.cpp.o
 SIMS: CMakeFiles/SIMS.dir/src/views/MainView.cpp.o
 SIMS: CMakeFiles/SIMS.dir/src/views/StudentView.cpp.o
+SIMS: CMakeFiles/SIMS.dir/src/views/CourseView.cpp.o
+SIMS: CMakeFiles/SIMS.dir/src/views/EnrollmentView.cpp.o
+SIMS: CMakeFiles/SIMS.dir/src/services/CourseService.cpp.o
+SIMS: CMakeFiles/SIMS.dir/src/services/EnrollmentService.cpp.o
+SIMS: CMakeFiles/SIMS.dir/src/services/StudentService.cpp.o
+SIMS: CMakeFiles/SIMS.dir/src/controllers/AppController.cpp.o
+SIMS: CMakeFiles/SIMS.dir/src/controllers/AppControllerTest.cpp.o
+SIMS: CMakeFiles/SIMS.dir/src/utils/Validation.cpp.o
 SIMS: CMakeFiles/SIMS.dir/build.make
 SIMS: /usr/local/lib/libgtest_main.a
+SIMS: /usr/local/lib/libgmock.a
+SIMS: /usr/local/lib/libgmock_main.a
 SIMS: /usr/local/lib/libgtest.a
 SIMS: CMakeFiles/SIMS.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX executable SIMS"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_21) "Linking CXX executable SIMS"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/SIMS.dir/link.txt --verbose=$(VERBOSE)
 	/home/oulashu/下载/CLion-2021.2.1/clion-2021.2.1/bin/cmake/linux/bin/cmake -D TEST_TARGET=SIMS -D "TEST_EXECUTABLE=/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/cmake-build-debug/SIMS" -D TEST_EXECUTOR= -D "TEST_WORKING_DIR=/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/cmake-build-debug" -D TEST_EXTRA_ARGS= -D TEST_PROPERTIES= -D TEST_PREFIX= -D TEST_SUFFIX= -D NO_PRETTY_TYPES=FALSE -D NO_PRETTY_VALUES=FALSE -D TEST_LIST=SIMS_TESTS -D "CTEST_FILE=/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion/cmake-build-debug/SIMS[1]_tests.cmake" -D TEST_DISCOVERY_TIMEOUT=5 -D TEST_XML_OUTPUT_DIR= -P /home/oulashu/下载/CLion-2021.2.1/clion-2021.2.1/bin/cmake/linux/share/cmake-3.20/Modules/GoogleTestAddTests.cmake
 

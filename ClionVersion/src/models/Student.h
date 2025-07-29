@@ -24,6 +24,8 @@ public:
 
     void setLevel(int level);
 
+    friend bool operator==(const Student& lhs, const Student& rhs);
+
 private:
     std::string studentId;
     std::string fullName;

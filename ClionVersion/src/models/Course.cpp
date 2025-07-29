@@ -40,3 +40,7 @@ Course::Course(const std::string &id, const std::string &name,
                const std::string &code, const std::string &des)
     : courseId(id), courseName(name), courseCode(code), description(des)
 { }
+
+bool operator==(const Course &lhs, const Course &rhs) {
+    return lhs.courseId == rhs.courseId;
+}

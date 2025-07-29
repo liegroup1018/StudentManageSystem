@@ -139,6 +139,54 @@ SIMS/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SIMS.dir/build.make CMakeFiles/SIMS.dir/build
 .PHONY : SIMS/fast
 
+src/controllers/AppController.o: src/controllers/AppController.cpp.o
+.PHONY : src/controllers/AppController.o
+
+# target to build an object file
+src/controllers/AppController.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SIMS.dir/build.make CMakeFiles/SIMS.dir/src/controllers/AppController.cpp.o
+.PHONY : src/controllers/AppController.cpp.o
+
+src/controllers/AppController.i: src/controllers/AppController.cpp.i
+.PHONY : src/controllers/AppController.i
+
+# target to preprocess a source file
+src/controllers/AppController.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SIMS.dir/build.make CMakeFiles/SIMS.dir/src/controllers/AppController.cpp.i
+.PHONY : src/controllers/AppController.cpp.i
+
+src/controllers/AppController.s: src/controllers/AppController.cpp.s
+.PHONY : src/controllers/AppController.s
+
+# target to generate assembly for a file
+src/controllers/AppController.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SIMS.dir/build.make CMakeFiles/SIMS.dir/src/controllers/AppController.cpp.s
+.PHONY : src/controllers/AppController.cpp.s
+
+src/controllers/AppControllerTest.o: src/controllers/AppControllerTest.cpp.o
+.PHONY : src/controllers/AppControllerTest.o
+
+# target to build an object file
+src/controllers/AppControllerTest.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SIMS.dir/build.make CMakeFiles/SIMS.dir/src/controllers/AppControllerTest.cpp.o
+.PHONY : src/controllers/AppControllerTest.cpp.o
+
+src/controllers/AppControllerTest.i: src/controllers/AppControllerTest.cpp.i
+.PHONY : src/controllers/AppControllerTest.i
+
+# target to preprocess a source file
+src/controllers/AppControllerTest.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SIMS.dir/build.make CMakeFiles/SIMS.dir/src/controllers/AppControllerTest.cpp.i
+.PHONY : src/controllers/AppControllerTest.cpp.i
+
+src/controllers/AppControllerTest.s: src/controllers/AppControllerTest.cpp.s
+.PHONY : src/controllers/AppControllerTest.s
+
+# target to generate assembly for a file
+src/controllers/AppControllerTest.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SIMS.dir/build.make CMakeFiles/SIMS.dir/src/controllers/AppControllerTest.cpp.s
+.PHONY : src/controllers/AppControllerTest.cpp.s
+
 src/models/Course.o: src/models/Course.cpp.o
 .PHONY : src/models/Course.o
 
@@ -355,29 +403,101 @@ src/repositories/InMemoryStudentRepository.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SIMS.dir/build.make CMakeFiles/SIMS.dir/src/repositories/InMemoryStudentRepository.cpp.s
 .PHONY : src/repositories/InMemoryStudentRepository.cpp.s
 
-src/repositories/RepositoriesUnitTest.o: src/repositories/RepositoriesUnitTest.cpp.o
-.PHONY : src/repositories/RepositoriesUnitTest.o
+src/services/CourseService.o: src/services/CourseService.cpp.o
+.PHONY : src/services/CourseService.o
 
 # target to build an object file
-src/repositories/RepositoriesUnitTest.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SIMS.dir/build.make CMakeFiles/SIMS.dir/src/repositories/RepositoriesUnitTest.cpp.o
-.PHONY : src/repositories/RepositoriesUnitTest.cpp.o
+src/services/CourseService.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SIMS.dir/build.make CMakeFiles/SIMS.dir/src/services/CourseService.cpp.o
+.PHONY : src/services/CourseService.cpp.o
 
-src/repositories/RepositoriesUnitTest.i: src/repositories/RepositoriesUnitTest.cpp.i
-.PHONY : src/repositories/RepositoriesUnitTest.i
+src/services/CourseService.i: src/services/CourseService.cpp.i
+.PHONY : src/services/CourseService.i
 
 # target to preprocess a source file
-src/repositories/RepositoriesUnitTest.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SIMS.dir/build.make CMakeFiles/SIMS.dir/src/repositories/RepositoriesUnitTest.cpp.i
-.PHONY : src/repositories/RepositoriesUnitTest.cpp.i
+src/services/CourseService.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SIMS.dir/build.make CMakeFiles/SIMS.dir/src/services/CourseService.cpp.i
+.PHONY : src/services/CourseService.cpp.i
 
-src/repositories/RepositoriesUnitTest.s: src/repositories/RepositoriesUnitTest.cpp.s
-.PHONY : src/repositories/RepositoriesUnitTest.s
+src/services/CourseService.s: src/services/CourseService.cpp.s
+.PHONY : src/services/CourseService.s
 
 # target to generate assembly for a file
-src/repositories/RepositoriesUnitTest.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SIMS.dir/build.make CMakeFiles/SIMS.dir/src/repositories/RepositoriesUnitTest.cpp.s
-.PHONY : src/repositories/RepositoriesUnitTest.cpp.s
+src/services/CourseService.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SIMS.dir/build.make CMakeFiles/SIMS.dir/src/services/CourseService.cpp.s
+.PHONY : src/services/CourseService.cpp.s
+
+src/services/EnrollmentService.o: src/services/EnrollmentService.cpp.o
+.PHONY : src/services/EnrollmentService.o
+
+# target to build an object file
+src/services/EnrollmentService.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SIMS.dir/build.make CMakeFiles/SIMS.dir/src/services/EnrollmentService.cpp.o
+.PHONY : src/services/EnrollmentService.cpp.o
+
+src/services/EnrollmentService.i: src/services/EnrollmentService.cpp.i
+.PHONY : src/services/EnrollmentService.i
+
+# target to preprocess a source file
+src/services/EnrollmentService.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SIMS.dir/build.make CMakeFiles/SIMS.dir/src/services/EnrollmentService.cpp.i
+.PHONY : src/services/EnrollmentService.cpp.i
+
+src/services/EnrollmentService.s: src/services/EnrollmentService.cpp.s
+.PHONY : src/services/EnrollmentService.s
+
+# target to generate assembly for a file
+src/services/EnrollmentService.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SIMS.dir/build.make CMakeFiles/SIMS.dir/src/services/EnrollmentService.cpp.s
+.PHONY : src/services/EnrollmentService.cpp.s
+
+src/services/StudentService.o: src/services/StudentService.cpp.o
+.PHONY : src/services/StudentService.o
+
+# target to build an object file
+src/services/StudentService.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SIMS.dir/build.make CMakeFiles/SIMS.dir/src/services/StudentService.cpp.o
+.PHONY : src/services/StudentService.cpp.o
+
+src/services/StudentService.i: src/services/StudentService.cpp.i
+.PHONY : src/services/StudentService.i
+
+# target to preprocess a source file
+src/services/StudentService.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SIMS.dir/build.make CMakeFiles/SIMS.dir/src/services/StudentService.cpp.i
+.PHONY : src/services/StudentService.cpp.i
+
+src/services/StudentService.s: src/services/StudentService.cpp.s
+.PHONY : src/services/StudentService.s
+
+# target to generate assembly for a file
+src/services/StudentService.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SIMS.dir/build.make CMakeFiles/SIMS.dir/src/services/StudentService.cpp.s
+.PHONY : src/services/StudentService.cpp.s
+
+src/utils/Validation.o: src/utils/Validation.cpp.o
+.PHONY : src/utils/Validation.o
+
+# target to build an object file
+src/utils/Validation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SIMS.dir/build.make CMakeFiles/SIMS.dir/src/utils/Validation.cpp.o
+.PHONY : src/utils/Validation.cpp.o
+
+src/utils/Validation.i: src/utils/Validation.cpp.i
+.PHONY : src/utils/Validation.i
+
+# target to preprocess a source file
+src/utils/Validation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SIMS.dir/build.make CMakeFiles/SIMS.dir/src/utils/Validation.cpp.i
+.PHONY : src/utils/Validation.cpp.i
+
+src/utils/Validation.s: src/utils/Validation.cpp.s
+.PHONY : src/utils/Validation.s
+
+# target to generate assembly for a file
+src/utils/Validation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SIMS.dir/build.make CMakeFiles/SIMS.dir/src/utils/Validation.cpp.s
+.PHONY : src/utils/Validation.cpp.s
 
 src/views/BaseView.o: src/views/BaseView.cpp.o
 .PHONY : src/views/BaseView.o
@@ -402,6 +522,54 @@ src/views/BaseView.s: src/views/BaseView.cpp.s
 src/views/BaseView.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SIMS.dir/build.make CMakeFiles/SIMS.dir/src/views/BaseView.cpp.s
 .PHONY : src/views/BaseView.cpp.s
+
+src/views/CourseView.o: src/views/CourseView.cpp.o
+.PHONY : src/views/CourseView.o
+
+# target to build an object file
+src/views/CourseView.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SIMS.dir/build.make CMakeFiles/SIMS.dir/src/views/CourseView.cpp.o
+.PHONY : src/views/CourseView.cpp.o
+
+src/views/CourseView.i: src/views/CourseView.cpp.i
+.PHONY : src/views/CourseView.i
+
+# target to preprocess a source file
+src/views/CourseView.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SIMS.dir/build.make CMakeFiles/SIMS.dir/src/views/CourseView.cpp.i
+.PHONY : src/views/CourseView.cpp.i
+
+src/views/CourseView.s: src/views/CourseView.cpp.s
+.PHONY : src/views/CourseView.s
+
+# target to generate assembly for a file
+src/views/CourseView.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SIMS.dir/build.make CMakeFiles/SIMS.dir/src/views/CourseView.cpp.s
+.PHONY : src/views/CourseView.cpp.s
+
+src/views/EnrollmentView.o: src/views/EnrollmentView.cpp.o
+.PHONY : src/views/EnrollmentView.o
+
+# target to build an object file
+src/views/EnrollmentView.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SIMS.dir/build.make CMakeFiles/SIMS.dir/src/views/EnrollmentView.cpp.o
+.PHONY : src/views/EnrollmentView.cpp.o
+
+src/views/EnrollmentView.i: src/views/EnrollmentView.cpp.i
+.PHONY : src/views/EnrollmentView.i
+
+# target to preprocess a source file
+src/views/EnrollmentView.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SIMS.dir/build.make CMakeFiles/SIMS.dir/src/views/EnrollmentView.cpp.i
+.PHONY : src/views/EnrollmentView.cpp.i
+
+src/views/EnrollmentView.s: src/views/EnrollmentView.cpp.s
+.PHONY : src/views/EnrollmentView.s
+
+# target to generate assembly for a file
+src/views/EnrollmentView.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SIMS.dir/build.make CMakeFiles/SIMS.dir/src/views/EnrollmentView.cpp.s
+.PHONY : src/views/EnrollmentView.cpp.s
 
 src/views/MainView.o: src/views/MainView.cpp.o
 .PHONY : src/views/MainView.o
@@ -461,6 +629,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... test"
 	@echo "... SIMS"
+	@echo "... src/controllers/AppController.o"
+	@echo "... src/controllers/AppController.i"
+	@echo "... src/controllers/AppController.s"
+	@echo "... src/controllers/AppControllerTest.o"
+	@echo "... src/controllers/AppControllerTest.i"
+	@echo "... src/controllers/AppControllerTest.s"
 	@echo "... src/models/Course.o"
 	@echo "... src/models/Course.i"
 	@echo "... src/models/Course.s"
@@ -488,12 +662,27 @@ help:
 	@echo "... src/repositories/InMemoryStudentRepository.o"
 	@echo "... src/repositories/InMemoryStudentRepository.i"
 	@echo "... src/repositories/InMemoryStudentRepository.s"
-	@echo "... src/repositories/RepositoriesUnitTest.o"
-	@echo "... src/repositories/RepositoriesUnitTest.i"
-	@echo "... src/repositories/RepositoriesUnitTest.s"
+	@echo "... src/services/CourseService.o"
+	@echo "... src/services/CourseService.i"
+	@echo "... src/services/CourseService.s"
+	@echo "... src/services/EnrollmentService.o"
+	@echo "... src/services/EnrollmentService.i"
+	@echo "... src/services/EnrollmentService.s"
+	@echo "... src/services/StudentService.o"
+	@echo "... src/services/StudentService.i"
+	@echo "... src/services/StudentService.s"
+	@echo "... src/utils/Validation.o"
+	@echo "... src/utils/Validation.i"
+	@echo "... src/utils/Validation.s"
 	@echo "... src/views/BaseView.o"
 	@echo "... src/views/BaseView.i"
 	@echo "... src/views/BaseView.s"
+	@echo "... src/views/CourseView.o"
+	@echo "... src/views/CourseView.i"
+	@echo "... src/views/CourseView.s"
+	@echo "... src/views/EnrollmentView.o"
+	@echo "... src/views/EnrollmentView.i"
+	@echo "... src/views/EnrollmentView.s"
 	@echo "... src/views/MainView.o"
 	@echo "... src/views/MainView.i"
 	@echo "... src/views/MainView.s"

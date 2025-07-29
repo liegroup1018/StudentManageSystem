@@ -1,0 +1,5 @@
+CourseId,CourseName,CourseCode,Description
+C100001,Test Course A,TCA101,Description for Test Course A
+C100002,Test Course B,TCB101,Description for Test Course B
+C100003,Test Course C,TCC101,Description for Test Course C
+C999999,New Course,NC101,A new test course

@@ -1,1 +1,6 @@
-4:InMemoryRepositoryCourseTest.GetCourseNotExit
+1:ServicesTest.GetStudent
+2:ServicesTest.GetCourse
+3:ServicesTest.GetEnrollment
+4:ServicesTest.GetStudentsForCourse
+5:ServicesTest.GetGradesForStudent
+6:ServicesTest.GetGradesForCourse

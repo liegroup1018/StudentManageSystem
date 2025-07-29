@@ -229,6 +229,9 @@ ClionVersion_BINARY_DIR:STATIC=/home/oulashu/文档/2025 项目计划/学生信�
 //Value Computed by CMake
 ClionVersion_SOURCE_DIR:STATIC=/home/oulashu/文档/2025 项目计划/学生信息管理系统/StudentManageSystem/ClionVersion
 
+//The directory containing a CMake configuration file for GMock.
+GMock_DIR:PATH=GMock_DIR-NOTFOUND
+
 //The directory containing a CMake configuration file for GTest.
 GTest_DIR:PATH=/usr/local/lib/cmake/GTest
 

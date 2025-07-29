@@ -4,6 +4,7 @@
 
 #include "FileEnrollmentRepository.h"
 
+
 void FileEnrollmentRepository::addEnrollment(const EnrollmentRecord &e) {
     std::string sid = e.getStudentId();
     std::string cid = e.getCourseId();
@@ -16,9 +17,7 @@ void FileEnrollmentRepository::addEnrollment(const EnrollmentRecord &e) {
     }
 }
 
-void FileEnrollmentRepository::deleteEnrollment(const EnrollmentRecord &e) {
-    std::string sid = e.getStudentId();
-    std::string cid = e.getCourseId();
+void FileEnrollmentRepository::deleteEnrollment(const std::string& sid, const std::string& cid) {
 
     auto exits = [&sid, &cid](EnrollmentRecord &e){
         return (e.getStudentId() == sid) && (e.getCourseId() == cid);
@@ -87,11 +86,11 @@ int FileEnrollmentRepository::getGrade(const std::string &sid, const std::string
     }
 }
 
-std::unordered_map<std::string, int> FileEnrollmentRepository::getGradesForAStudent(const std::string &sid) {
-    std::unordered_map<std::string, int> gc;
+std::vector<EnrollmentRecord> FileEnrollmentRepository::getGradesForAStudent(const std::string &sid) {
+    std::vector<EnrollmentRecord> gc;
     for (const auto& e : enrollments) {
         if(e.getStudentId() == sid){
-            gc[e.getCourseId()] = e.getGrade();
+            gc.push_back(e);
         }
     }
 
@@ -104,11 +103,11 @@ std::unordered_map<std::string, int> FileEnrollmentRepository::getGradesForAStud
     }
 }
 
-std::unordered_map<std::string, int> FileEnrollmentRepository::getGradesForACourse(const std::string &cid) {
-    std::unordered_map<std::string, int> gs;
+std::vector<EnrollmentRecord> FileEnrollmentRepository::getGradesForACourse(const std::string &cid) {
+    std::vector<EnrollmentRecord> gs;
     for (const auto& e : enrollments) {
         if(e.getCourseId() == cid){
-            gs[e.getStudentId()] = e.getGrade();
+            gs.push_back(e);
         }
     }
 

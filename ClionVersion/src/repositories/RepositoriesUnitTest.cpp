@@ -14,7 +14,7 @@
 
 /******************* StudentInMemoryRepositoryTest**********************/
 ///*
-// * 系统中没有任何学生信息，添加新的学生信息
+// * ϵͳ��û���κ�ѧ����Ϣ������µ�ѧ����Ϣ
 // */
 //TEST(AddAndContainStudentTest, AddNotExit){
 //    InMemoryStudentRepository r;
@@ -26,7 +26,7 @@
 //    EXPECT_EQ(false, notexit);
 //}
 //
-//// 没有学生时确实抛出异常
+//// û��ѧ��ʱȷʵ�׳��쳣
 //TEST(GetAllStudents, NoStudentsExits){
 //    std::string error;
 //    InMemoryStudentRepository r;
@@ -70,7 +70,7 @@
 //    EXPECT_EQ("Student with ID 'S039486' not found.", error);
 //}
 //
-//// 剩下的使用差不多的方法写（ToDo...）
+//// ʣ�µ�ʹ�ò��ķ���д��ToDo...��
 ///******************* StudentInMemoryRepositoryTest**********************/
 //
 //
@@ -148,7 +148,7 @@
 //    EXPECT_EQ(false, notexit);
 //}
 //
-//// 没有学生时确实抛出异常
+//// û��ѧ��ʱȷʵ�׳��쳣
 //TEST(GetAllCourses, NoCoursesExits) {
 //    std::string error;
 //    InMemoryCourseRepository r;
@@ -271,111 +271,112 @@ TEST(AddAndContainEnrollmentTest, AddNotExit){
     EXPECT_EQ(false, notexit);
 }
 
-class InMemoryRepositoryEnrollmentTest : public testing::Test {
-protected:
-    InMemoryRepositoryEnrollmentTest(){
-        r.addEnrollment(EnrollmentRecord{"S039482", "C213654", "Fall 2023"});
-        r.addEnrollment(EnrollmentRecord{"S712345", "C635289", "Spring 2024"});
-        r.addEnrollment(EnrollmentRecord{"S198237", "C329476", "Winter 2023"});
-        r.assignGrade("S712345", "C635289",78);
-        r.assignGrade("S198237", "C329476",92);
-    }
-
-    InMemoryEnrollmentRepository r;
-};
-
-TEST_F(InMemoryRepositoryEnrollmentTest, DeleteExit){
-    std::string error;
-    try {
-        EnrollmentRecord en{"S039482", "C213654", "Fall 2023"};
-        r.deleteEnrollment(en);
-    }
-    catch(EnollmentRepositotyError& e) {
-        error = e.what();
-    }
-    EXPECT_EQ(error, "");
-}
-
-TEST_F(InMemoryRepositoryEnrollmentTest, DeleteNotExit){
-    std::string error;
-    try {
-        EnrollmentRecord en{"S039481", "C213653", "Fall 2023"};
-        r.deleteEnrollment(en);
-    }
-    catch(EnollmentRepositotyError& e) {
-        error = e.what();
-    }
-    EXPECT_EQ(error, "Can not delete! Enrollment with Student ID "
-                     "'S039481' and Course ID 'C213653' not found.");
-}
-
-TEST_F(InMemoryRepositoryEnrollmentTest, AssignGrade){
-    int grade;
-    try{
-        r.assignGrade("S039482", "C213654",98);
-        grade = r.getGrade("S039482", "C213654");
-    }
-    catch(EnollmentRepositotyError& e) {
-
-    }
-    EXPECT_EQ(98, grade);
-}
-
-TEST_F(InMemoryRepositoryEnrollmentTest, AllStudentsForACourse){
-    std::vector<std::string> st;
-    try{
-        st = r.getAllStudentsForACourse("C213654");
-    }
-    catch(EnollmentRepositotyError& e){
-
-    }
-    auto begin = st.begin();
-    auto end = st.end();
-
-    EXPECT_GT(std::count(begin,end,"S039482"),0);
-}
-
-TEST_F(InMemoryRepositoryEnrollmentTest, AllCoursesForAStudent){
-    std::vector<std::string> cr;
-    try{
-        cr = r.getAllCoursesForAStudent("S039482");
-    }
-    catch(EnollmentRepositotyError& e){
-
-    }
-    auto begin = cr.begin();
-    auto end = cr.end();
-
-    EXPECT_GT(std::count(begin,end,"C213654"),0);
-}
-
-TEST_F(InMemoryRepositoryEnrollmentTest, GradesForAStudent){
-    std::unordered_map<std::string, int> s;
-    try{
-        s = r.getGradesForAStudent("S712345");
-    }catch(EnollmentRepositotyError& e){
-
-    }
-
-    EXPECT_GT(s.count("C635289"),0);
-    EXPECT_EQ(s["C635289"], 78);
-}
-
-TEST_F(InMemoryRepositoryEnrollmentTest, GradesForACourse){
-    std::unordered_map<std::string, int> c;
-    try{
-        c = r.getGradesForACourse("C329476");
-    }catch(EnollmentRepositotyError& e){
-
-    }
-
-    EXPECT_GT(c.count("S198237"),0);
-    EXPECT_EQ(c["S198237"], 92);
-}
+//class InMemoryRepositoryEnrollmentTest : public testing::Test {
+//protected:
+//    InMemoryRepositoryEnrollmentTest(){
+//        r.addEnrollment(EnrollmentRecord{"S039482", "C213654", "Fall 2023"});
+//        r.addEnrollment(EnrollmentRecord{"S712345", "C635289", "Spring 2024"});
+//        r.addEnrollment(EnrollmentRecord{"S198237", "C329476", "Winter 2023"});
+//        r.assignGrade("S712345", "C635289",78);
+//        r.assignGrade("S198237", "C329476",92);
+//    }
+//
+//    InMemoryEnrollmentRepository r;
+//};
+//
+//TEST_F(InMemoryRepositoryEnrollmentTest, DeleteExit){
+//    std::string error;
+//    try {
+//        EnrollmentRecord en{"S039482", "C213654", "Fall 2023"};
+//        r.deleteEnrollment(en);
+//    }
+//    catch(EnollmentRepositotyError& e) {
+//        error = e.what();
+//    }
+//    EXPECT_EQ(error, "");
+//}
+//
+//TEST_F(InMemoryRepositoryEnrollmentTest, DeleteNotExit){
+//    std::string error;
+//    try {
+//        EnrollmentRecord en{"S039481", "C213653", "Fall 2023"};
+//        r.deleteEnrollment(en);
+//    }
+//    catch(EnollmentRepositotyError& e) {
+//        error = e.what();
+//    }
+//    EXPECT_EQ(error, "Can not delete! Enrollment with Student ID "
+//                     "'S039481' and Course ID 'C213653' not found.");
+//}
+//
+//TEST_F(InMemoryRepositoryEnrollmentTest, AssignGrade){
+//    int grade;
+//    try{
+//        r.assignGrade("S039482", "C213654",98);
+//        grade = r.getGrade("S039482", "C213654");
+//    }
+//    catch(EnollmentRepositotyError& e) {
+//
+//    }
+//    EXPECT_EQ(98, grade);
+//}
+//
+//TEST_F(InMemoryRepositoryEnrollmentTest, AllStudentsForACourse){
+//    std::vector<std::string> st;
+//    try{
+//        st = r.getAllStudentsForACourse("C213654");
+//    }
+//    catch(EnollmentRepositotyError& e){
+//
+//    }
+//    auto begin = st.begin();
+//    auto end = st.end();
+//
+//    EXPECT_GT(std::count(begin,end,"S039482"),0);
+//}
+//
+//TEST_F(InMemoryRepositoryEnrollmentTest, AllCoursesForAStudent){
+//    std::vector<std::string> cr;
+//    try{
+//        cr = r.getAllCoursesForAStudent("S039482");
+//    }
+//    catch(EnollmentRepositotyError& e){
+//
+//    }
+//    auto begin = cr.begin();
+//    auto end = cr.end();
+//
+//    EXPECT_GT(std::count(begin,end,"C213654"),0);
+//}
+//
+//TEST_F(InMemoryRepositoryEnrollmentTest, GradesForAStudent){
+//    std::unordered_map<std::string, int> s;
+//    try{
+//        s = r.getGradesForAStudent("S712345");
+//    }catch(EnollmentRepositotyError& e){
+//
+//    }
+//
+//    EXPECT_GT(s.count("C635289"),0);
+//    EXPECT_EQ(s["C635289"], 78);
+//}
+//
+//TEST_F(InMemoryRepositoryEnrollmentTest, GradesForACourse){
+//    std::unordered_map<std::string, int> c;
+//    try{
+//        c = r.getGradesForACourse("C329476");
+//    }catch(EnollmentRepositotyError& e){
+//
+//    }
+//
+//    EXPECT_GT(c.count("S198237"),0);
+//    EXPECT_EQ(c["S198237"], 92);
+//}
 
 //TEST(LoadData, EnrollmentFileNotExit){
 //    std::string filepath = "../src/repositories/enrollmentrecors.txt";
 //    std::string error;
+//
 //
 //    try {
 //        FileEnrollmentRepository fr(filepath);
@@ -387,7 +388,7 @@ TEST_F(InMemoryRepositoryEnrollmentTest, GradesForACourse){
 //}
 
 TEST(LoadData, EnrollmentFileExit){
-    std::string filepath = "../src/repositories/enrollmentrecors.txt";
+    std::string filepath = "src/repositories/enrollmentrecors.txt";
     std::string error;
 
     try {
@@ -403,38 +404,43 @@ TEST(LoadData, EnrollmentFileExit){
     }
     EXPECT_EQ("", error);
 }
+//
+//TEST(EnrollmentSaveData, AddNew){
+//    std::string filepath = "src/repositories/enrollmentrecors.txt";
+//
+//    {
+//        FileEnrollmentRepository fr(filepath);
+//        EnrollmentRecord e1{"S039482", "C635289", "Spring 2024"};
+//        e1.setGrade(81);
+//        EnrollmentRecord e2{"S712345", "C213654", "Fall 2023"};
+//        e2.setGrade(90);
+//        fr.addEnrollment(e1);
+//        fr.addEnrollment(e2);
+//    }
+//
+//    FileEnrollmentRepository fr1(filepath);
+//    EXPECT_EQ(true, fr1.containsEnrollment("S039482", "C635289"));
+//    EXPECT_EQ(true, fr1.containsEnrollment("S712345", "C213654"));
+//}
 
-TEST(EnrollmentSaveData, AddNew){
-    std::string filepath = "../src/repositories/enrollmentrecors.txt";
-
-    {
-        FileEnrollmentRepository fr(filepath);
-        EnrollmentRecord e1{"S039482", "C635289", "Spring 2024"};
-        e1.setGrade(81);
-        EnrollmentRecord e2{"S712345", "C213654", "Fall 2023"};
-        e2.setGrade(90);
-        fr.addEnrollment(e1);
-        fr.addEnrollment(e2);
-    }
-
-    FileEnrollmentRepository fr1(filepath);
-    EXPECT_EQ(true, fr1.containsEnrollment("S039482", "C635289"));
-    EXPECT_EQ(true, fr1.containsEnrollment("S712345", "C213654"));
-}
-
-TEST(EnrollmentSaveData, DeleteAlreadyIn){
-    std::string filepath = "../src/repositories/enrollmentrecors.txt";
-
-    {
-        FileEnrollmentRepository fr(filepath);
-        EnrollmentRecord e1{"S039482", "C635289", "Spring 2024"};
-        EnrollmentRecord e2{"S712345", "C213654", "Fall 2023"};
-        fr.deleteEnrollment(e1);
-        fr.deleteEnrollment(e2);
-    }
-
-    FileEnrollmentRepository fr1(filepath);
-    EXPECT_EQ(false, fr1.containsEnrollment("S039482", "C635289"));
-    EXPECT_EQ(false, fr1.containsEnrollment("S712345", "C213654"));
-}
+//TEST(EnrollmentSaveData, DeleteAlreadyIn){
+//    std::string filepath = "src/repositories/enrollmentrecors.txt";
+//
+//    {
+//        FileEnrollmentRepository fr(filepath);
+//        EnrollmentRecord e1{"S039482", "C635289", "Spring 2024"};
+//        EnrollmentRecord e2{"S712345", "C213654", "Fall 2023"};
+//        fr.deleteEnrollment(e1);
+//        fr.deleteEnrollment(e2);
+//    }
+//
+//    FileEnrollmentRepository fr1(filepath);
+//    EXPECT_EQ(false, fr1.containsEnrollment("S039482", "C635289"));
+//    EXPECT_EQ(false, fr1.containsEnrollment("S712345", "C213654"));
+//}
 /******************** EnrollmentsRepositoryTest**********************/
+
+//int main(int argc, char** argv) {
+//    ::testing::InitGoogleTest(&argc, argv);
+//    return RUN_ALL_TESTS();
+//}

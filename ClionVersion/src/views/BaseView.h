@@ -11,26 +11,27 @@ class BaseView {
 public:
     virtual ~BaseView() = default;
 
-// Protected so only derived classes can access these tools
-protected:
+public:
     // This class doesn't need data members. Its state is the console itself
 
     // --- Core Methods (The "UI Toolkit") ---
 
     // Clears the entire console screen
-    void clearSrceen() const;
+    virtual void clearScreen() const;
 
     // Display a formatted message to the user(e.g., for errors or success notification)
-    void showMessage(const std::string& message) const;
+    virtual void showMessage(const std::string& message) const;
 
     // Pauses the application and waits for the user to press the Enter key
-    void waitForKeyPress() const;
+    virtual void waitForKeyPress() const;
 
+protected:
     // Gets a raw line of text from the user. Ensures the input is not empty
-    std::string getStringInput(const std::string& prompt) const;
+    virtual std::string getStringInput(const std::string& prompt) const;
 
     // Gets a integer from the user. Ensures the input is a valid integer
-    int getIntegerInput(const std::string& prompt) const;
+    virtual int getIntegerInput(const std::string& prompt) const;
+
 };
 
 

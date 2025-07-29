@@ -57,7 +57,7 @@ FileStudentRepository::FileStudentRepository(const std::string &filePath) : file
 void FileStudentRepository::loadData() {
     std::ifstream f(filePath);
 
-    if(!f){
+    if(!f.is_open()){
         throw StudentRepositotyError("can not open: " + filePath + "!");
     }
 
